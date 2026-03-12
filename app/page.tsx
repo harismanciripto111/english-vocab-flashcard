@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import FlashCard from '@/components/FlashCard'
 import PomodoroTimer from '@/components/PomodoroTimer'
 import ProgressTracker from '@/components/ProgressTracker'
@@ -19,7 +19,7 @@ export default function Home() {
   const [dailyCount, setDailyCount] = useState(0)
   const [streak, setStreak] = useState(0)
 
-  const allWords = vocabData.categories.flatMap(c => 
+  const allWords = vocabData.categories.flatMap(c =>
     c.words.map(w => ({ ...w, category: c.name, categoryId: c.id, icon: c.icon }))
   )
 
@@ -31,20 +31,24 @@ export default function Home() {
     const saved = localStorage.getItem('learnedWords')
     const savedCount = localStorage.getItem('dailyCount')
     const savedStreak = localStorage.getItem('streak')
-    if (saved) setLearnedWords(new Set(JSON.parse(saved)))
+    if (saved) setLearnedWords(new Set(JSON.parse(saved) as number[]))
     if (savedCount) setDailyCount(parseInt(savedCount))
     if (savedStreak) setStreak(parseInt(savedStreak))
   }, [])
 
-  const markLearned = (id: number) => {
-    const newLearned = new Set(learnedWords)
-    newLearned.add(id)
-    setLearnedWords(newLearned)
-    localStorage.setItem('learnedWords', JSON.stringify([...newLearned]))
-    const newCount = dailyCount + 1
-    setDailyCount(newCount)
-    localStorage.setItem('dailyCount', newCount.toString())
-  }
+  const markLearned = useCallback((id: number) => {
+    setLearnedWords(prev => {
+      const newLearned = new Set(prev)
+      newLearned.add(id)
+      localStorage.setItem('learnedWords', JSON.stringify(Array.from(newLearned)))
+      return newLearned
+    })
+    setDailyCount(prev => {
+      const newCount = prev + 1
+      localStorage.setItem('dailyCount', newCount.toString())
+      return newCount
+    })
+  }, [])
 
   const handleNext = () => {
     setCurrentIndex(prev => (prev + 1) % filteredWords.length)
@@ -60,7 +64,7 @@ export default function Home() {
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-3xl font-bold text-yellow-400">📚 English Vocab</h1>
+            <h1 className="text-3xl font-bold text-yellow-400">English Vocab</h1>
             <p className="text-gray-400 text-sm mt-1">Flashcard Interaktif Bahasa Inggris</p>
           </div>
           <div className="flex gap-2">
@@ -103,7 +107,7 @@ export default function Home() {
           </div>
           <div className="bg-[#1a1a2e] rounded-xl p-4 border border-yellow-500/20">
             <p className="text-gray-400 text-xs">Streak</p>
-            <p className="text-2xl font-bold text-orange-400">{streak} 🔥</p>
+            <p className="text-2xl font-bold text-orange-400">{streak}</p>
           </div>
         </div>
 
@@ -113,7 +117,7 @@ export default function Home() {
             <CategorySelector
               categories={vocabData.categories}
               selected={selectedCategory}
-              onSelect={(id) => { setSelectedCategory(id); setCurrentIndex(0) }}
+              onSelect={(id: string) => { setSelectedCategory(id); setCurrentIndex(0) }}
             />
             <ProgressTracker
               total={filteredWords.length}
@@ -141,10 +145,12 @@ export default function Home() {
                 </div>
               )
             ) : (
-              <QuizMode words={filteredWords} onComplete={(score) => {
-                const newCount = dailyCount + score
-                setDailyCount(newCount)
-                localStorage.setItem('dailyCount', newCount.toString())
+              <QuizMode words={filteredWords} onComplete={(score: number) => {
+                setDailyCount(prev => {
+                  const newCount = prev + score
+                  localStorage.setItem('dailyCount', newCount.toString())
+                  return newCount
+                })
               }} />
             )}
           </div>
