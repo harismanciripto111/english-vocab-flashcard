@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from 'react'
 
 interface Word {
-  id: number
+  id: string
   english: string
   pronunciation: string
   meaning: string
