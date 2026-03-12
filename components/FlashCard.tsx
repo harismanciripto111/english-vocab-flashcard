@@ -3,7 +3,7 @@
 import { useState } from 'react'
 
 interface Word {
-  id: number
+  id: string
   english: string
   pronunciation: string
   meaning: string
@@ -56,7 +56,7 @@ export default function FlashCard({ word, total, current, isLearned, onNext, onP
             <div className="mt-6 text-gray-500 text-sm">Tap untuk lihat arti</div>
             {isLearned && (
               <div className="absolute top-4 right-4 bg-green-500/20 text-green-400 text-xs px-2 py-1 rounded-full">
-                ✓ Dipelajari
+                Dipelajari
               </div>
             )}
           </div>
@@ -75,7 +75,7 @@ export default function FlashCard({ word, total, current, isLearned, onNext, onP
           onClick={handlePrev}
           className="flex-1 bg-[#1a1a2e] hover:bg-[#16213e] text-white py-3 rounded-xl transition-all border border-yellow-500/20 hover:border-yellow-500/50"
         >
-          ← Prev
+          Prev
         </button>
         <button
           onClick={onMarkLearned}
@@ -86,13 +86,13 @@ export default function FlashCard({ word, total, current, isLearned, onNext, onP
               : 'bg-yellow-500 hover:bg-yellow-400 text-black'
           }`}
         >
-          {isLearned ? '✓ Learned' : 'Mark Learned'}
+          {isLearned ? 'Learned' : 'Mark Learned'}
         </button>
         <button
           onClick={handleNext}
           className="flex-1 bg-[#1a1a2e] hover:bg-[#16213e] text-white py-3 rounded-xl transition-all border border-yellow-500/20 hover:border-yellow-500/50"
         >
-          Next →
+          Next
         </button>
       </div>
     </div>
