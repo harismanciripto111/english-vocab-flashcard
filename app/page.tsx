@@ -9,27 +9,17 @@ import QuizMode from '@/components/QuizMode'
 import DailyGoal from '@/components/DailyGoal'
 import vocabData from '@/data/vocabulary.json'
 
-interface VocabWord {
-  id: number
-  english: string
-  pronunciation: string
-  meaning: string
-  category: string
-  categoryId: string
-  icon: string
-}
-
 type Mode = 'flashcard' | 'quiz'
 
 export default function Home() {
   const [mode, setMode] = useState<Mode>('flashcard')
   const [selectedCategory, setSelectedCategory] = useState<string>('all')
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [learnedWords, setLearnedWords] = useState<Set<number>>(new Set())
+  const [learnedWords, setLearnedWords] = useState<Set<string>>(new Set())
   const [dailyCount, setDailyCount] = useState(0)
   const [streak, setStreak] = useState(0)
 
-  const allWords: VocabWord[] = vocabData.categories.flatMap(c =>
+  const allWords = vocabData.categories.flatMap(c =>
     c.words.map(w => ({ ...w, category: c.name, categoryId: c.id, icon: c.icon }))
   )
 
@@ -42,14 +32,14 @@ export default function Home() {
     const savedCount = localStorage.getItem('dailyCount')
     const savedStreak = localStorage.getItem('streak')
     if (saved) {
-      const parsed: number[] = JSON.parse(saved)
+      const parsed: string[] = JSON.parse(saved)
       setLearnedWords(new Set(parsed))
     }
     if (savedCount) setDailyCount(parseInt(savedCount))
     if (savedStreak) setStreak(parseInt(savedStreak))
   }, [])
 
-  const markLearned = useCallback((id: number) => {
+  const markLearned = useCallback((id: string) => {
     setLearnedWords(prev => {
       const newLearned = new Set(prev)
       newLearned.add(id)
@@ -71,7 +61,7 @@ export default function Home() {
     setCurrentIndex(prev => (prev - 1 + filteredWords.length) % filteredWords.length)
   }
 
-  const learnedCount = filteredWords.filter(w => learnedWords.has(Number(w.id))).length
+  const learnedCount = filteredWords.filter(w => learnedWords.has(w.id)).length
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] p-4 md:p-8">
@@ -149,10 +139,10 @@ export default function Home() {
                   word={filteredWords[currentIndex]}
                   total={filteredWords.length}
                   current={currentIndex}
-                  isLearned={learnedWords.has(Number(filteredWords[currentIndex].id))}
+                  isLearned={learnedWords.has(filteredWords[currentIndex].id)}
                   onNext={handleNext}
                   onPrev={handlePrev}
-                  onMarkLearned={() => markLearned(Number(filteredWords[currentIndex].id))}
+                  onMarkLearned={() => markLearned(filteredWords[currentIndex].id)}
                 />
               ) : (
                 <div className="bg-[#1a1a2e] rounded-2xl p-8 text-center">
