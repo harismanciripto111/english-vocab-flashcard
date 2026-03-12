@@ -9,6 +9,16 @@ import QuizMode from '@/components/QuizMode'
 import DailyGoal from '@/components/DailyGoal'
 import vocabData from '@/data/vocabulary.json'
 
+interface VocabWord {
+  id: number
+  english: string
+  pronunciation: string
+  meaning: string
+  category: string
+  categoryId: string
+  icon: string
+}
+
 type Mode = 'flashcard' | 'quiz'
 
 export default function Home() {
@@ -19,7 +29,7 @@ export default function Home() {
   const [dailyCount, setDailyCount] = useState(0)
   const [streak, setStreak] = useState(0)
 
-  const allWords = vocabData.categories.flatMap(c =>
+  const allWords: VocabWord[] = vocabData.categories.flatMap(c =>
     c.words.map(w => ({ ...w, category: c.name, categoryId: c.id, icon: c.icon }))
   )
 
@@ -31,7 +41,10 @@ export default function Home() {
     const saved = localStorage.getItem('learnedWords')
     const savedCount = localStorage.getItem('dailyCount')
     const savedStreak = localStorage.getItem('streak')
-    if (saved) setLearnedWords(new Set(JSON.parse(saved) as number[]))
+    if (saved) {
+      const parsed: number[] = JSON.parse(saved)
+      setLearnedWords(new Set(parsed))
+    }
     if (savedCount) setDailyCount(parseInt(savedCount))
     if (savedStreak) setStreak(parseInt(savedStreak))
   }, [])
@@ -57,6 +70,8 @@ export default function Home() {
   const handlePrev = () => {
     setCurrentIndex(prev => (prev - 1 + filteredWords.length) % filteredWords.length)
   }
+
+  const learnedCount = filteredWords.filter(w => learnedWords.has(Number(w.id))).length
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] p-4 md:p-8">
@@ -121,7 +136,7 @@ export default function Home() {
             />
             <ProgressTracker
               total={filteredWords.length}
-              learned={filteredWords.filter(w => learnedWords.has(w.id)).length}
+              learned={learnedCount}
             />
             <DailyGoal current={dailyCount} goal={20} />
           </div>
@@ -134,10 +149,10 @@ export default function Home() {
                   word={filteredWords[currentIndex]}
                   total={filteredWords.length}
                   current={currentIndex}
-                  isLearned={learnedWords.has(filteredWords[currentIndex].id)}
+                  isLearned={learnedWords.has(Number(filteredWords[currentIndex].id))}
                   onNext={handleNext}
                   onPrev={handlePrev}
-                  onMarkLearned={() => markLearned(filteredWords[currentIndex].id)}
+                  onMarkLearned={() => markLearned(Number(filteredWords[currentIndex].id))}
                 />
               ) : (
                 <div className="bg-[#1a1a2e] rounded-2xl p-8 text-center">
