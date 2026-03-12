@@ -25,7 +25,7 @@ export default function QuizMode({ words, onComplete }: Props) {
 
   const generateQuiz = useCallback(() => {
     if (words.length < 4) return
-    const shuffled = [...words].sort(() => Math.random() - 0.5).slice(0, 10)
+    const shuffled = [...words].sort(() => Math.random() - 0.5).slice(0, 50)
     const qs = shuffled.map(word => {
       const others = words.filter(w => w.id !== word.id).sort(() => Math.random() - 0.5).slice(0, 3)
       const choices = [...others.map(o => o.meaning), word.meaning].sort(() => Math.random() - 0.5)
