@@ -6,26 +6,306 @@
       "icon": "📱",
       "color": "#F59E0B",
       "words": [
-        { "id": "t1", "english": "Where is my phone?", "pronunciation": "Wer is mai foun?", "meaning": "Di mana HP-ku?" },
-        { "id": "t2", "english": "My battery is low.", "pronunciation": "Mai beteri is lou.", "meaning": "Baterai-ku lemah." },
-        { "id": "t3", "english": "Can I use your charger?", "pronunciation": "Ken ai yus yor carjer?", "meaning": "Boleh pinjam charger-mu?" },
-        { "id": "t4", "english": "The internet is slow.", "pronunciation": "Di internet is slou.", "meaning": "Internetnya lambat." },
-        { "id": "t5", "english": "What is the Wi-Fi password?", "pronunciation": "Wot is de waifai pasword?", "meaning": "Apa sandi Wi-Fi-nya?" },
-        { "id": "t6", "english": "I'll call you later.", "pronunciation": "Ail kol yu leiter.", "meaning": "Aku telepon kamu nanti." },
-        { "id": "t7", "english": "Send me the location.", "pronunciation": "Sen mi de loukeisyen.", "meaning": "Kirim lokasinya ke aku." },
-        { "id": "t8", "english": "Tag me in the photo.", "pronunciation": "Teg mi in de fotou.", "meaning": "Tag aku di fotonya." },
-        { "id": "t9", "english": "Check your WhatsApp.", "pronunciation": "Cek yor watsap.", "meaning": "Cek WhatsApp-mu." },
-        { "id": "t10", "english": "My phone is broken.", "pronunciation": "Mai foun is brouken.", "meaning": "HP-ku rusak." },
-        { "id": "t11", "english": "Upload the video.", "pronunciation": "Aploud de vidio.", "meaning": "Unggah videonya." },
-        { "id": "t12", "english": "I'm charging my phone.", "pronunciation": "Aim carjing mai foun.", "meaning": "Aku lagi ngecas HP." },
-        { "id": "t13", "english": "Follow my account.", "pronunciation": "Folou mai akaun.", "meaning": "Ikuti akun-ku." },
-        { "id": "t14", "english": "Turn on the Bluetooth.", "pronunciation": "Tern on de bluetut.", "meaning": "Nyalakan Bluetooth-nya." },
-        { "id": "t15", "english": "I lost my signal.", "pronunciation": "Ai lost mai signal.", "meaning": "Aku hilang sinyal." },
-        { "id": "t16", "english": "Can you screenshot that?", "pronunciation": "Ken yu skrinshot det?", "meaning": "Bisa kamu screenshot itu?" },
-        { "id": "t17", "english": "My storage is full.", "pronunciation": "Mai storej is ful.", "meaning": "Penyimpananku penuh." },
-        { "id": "t18", "english": "Download the app.", "pronunciation": "Daunloud di ep.", "meaning": "Unduh aplikasinya." },
-        { "id": "t19", "english": "I got a notification.", "pronunciation": "Ai got e notifikeisyen.", "meaning": "Aku dapat notifikasi." },
-        { "id": "t20", "english": "Share your screen.", "pronunciation": "Syer yor skrin.", "meaning": "Bagikan layarmu." }
+        {
+          "id": "t1",
+          "english": "Where is my phone?",
+          "pronunciation": "Wer is mai foun?",
+          "meaning": "Di mana HP-ku?"
+        },
+        {
+          "id": "t2",
+          "english": "My battery is low.",
+          "pronunciation": "Mai beteri is lou.",
+          "meaning": "Baterai-ku lemah."
+        },
+        {
+          "id": "t3",
+          "english": "Can I use your charger?",
+          "pronunciation": "Ken ai yus yor carjer?",
+          "meaning": "Boleh pinjam charger-mu?"
+        },
+        {
+          "id": "t4",
+          "english": "The internet is slow.",
+          "pronunciation": "Di internet is slou.",
+          "meaning": "Internetnya lambat."
+        },
+        {
+          "id": "t5",
+          "english": "What is the Wi-Fi password?",
+          "pronunciation": "Wot is de waifai pasword?",
+          "meaning": "Apa sandi Wi-Fi-nya?"
+        },
+        {
+          "id": "t6",
+          "english": "I'll call you later.",
+          "pronunciation": "Ail kol yu leiter.",
+          "meaning": "Aku telepon kamu nanti."
+        },
+        {
+          "id": "t7",
+          "english": "Send me the location.",
+          "pronunciation": "Sen mi de loukeisyen.",
+          "meaning": "Kirim lokasinya ke aku."
+        },
+        {
+          "id": "t8",
+          "english": "Tag me in the photo.",
+          "pronunciation": "Teg mi in de fotou.",
+          "meaning": "Tag aku di fotonya."
+        },
+        {
+          "id": "t9",
+          "english": "Check your WhatsApp.",
+          "pronunciation": "Cek yor watsap.",
+          "meaning": "Cek WhatsApp-mu."
+        },
+        {
+          "id": "t10",
+          "english": "My phone is broken.",
+          "pronunciation": "Mai foun is brouken.",
+          "meaning": "HP-ku rusak."
+        },
+        {
+          "id": "t11",
+          "english": "Upload the video.",
+          "pronunciation": "Aploud de vidio.",
+          "meaning": "Unggah videonya."
+        },
+        {
+          "id": "t12",
+          "english": "I'm charging my phone.",
+          "pronunciation": "Aim carjing mai foun.",
+          "meaning": "Aku lagi ngecas HP."
+        },
+        {
+          "id": "t13",
+          "english": "Follow my account.",
+          "pronunciation": "Folou mai akaun.",
+          "meaning": "Ikuti akun-ku."
+        },
+        {
+          "id": "t14",
+          "english": "Turn on the Bluetooth.",
+          "pronunciation": "Tern on de bluetut.",
+          "meaning": "Nyalakan Bluetooth-nya."
+        },
+        {
+          "id": "t15",
+          "english": "I lost my signal.",
+          "pronunciation": "Ai lost mai signal.",
+          "meaning": "Aku hilang sinyal."
+        },
+        {
+          "id": "t16",
+          "english": "Can you screenshot that?",
+          "pronunciation": "Ken yu skrinshot det?",
+          "meaning": "Bisa kamu screenshot itu?"
+        },
+        {
+          "id": "t17",
+          "english": "My storage is full.",
+          "pronunciation": "Mai storej is ful.",
+          "meaning": "Penyimpananku penuh."
+        },
+        {
+          "id": "t18",
+          "english": "Download the app.",
+          "pronunciation": "Daunloud di ep.",
+          "meaning": "Unduh aplikasinya."
+        },
+        {
+          "id": "t19",
+          "english": "I got a notification.",
+          "pronunciation": "Ai got e notifikeisyen.",
+          "meaning": "Aku dapat notifikasi."
+        },
+        {
+          "id": "t20",
+          "english": "Share your screen.",
+          "pronunciation": "Syer yor skrin.",
+          "meaning": "Bagikan layarmu."
+        },
+        {
+          "id": "t21",
+          "english": "I forgot my password.",
+          "pronunciation": "Ai forgot mai pasword.",
+          "meaning": "Aku lupa kata sandiku."
+        },
+        {
+          "id": "t22",
+          "english": "The app keeps crashing.",
+          "pronunciation": "Di ep kips kresying.",
+          "meaning": "Aplikasinya terus error."
+        },
+        {
+          "id": "t23",
+          "english": "Update your software.",
+          "pronunciation": "Apdeit yor sofwer.",
+          "meaning": "Perbarui perangkat lunakmu."
+        },
+        {
+          "id": "t24",
+          "english": "I got hacked!",
+          "pronunciation": "Ai got hekt!",
+          "meaning": "Aku kena hack!"
+        },
+        {
+          "id": "t25",
+          "english": "Clear your browser history.",
+          "pronunciation": "Klir yor brauser histori.",
+          "meaning": "Hapus riwayat browsermu."
+        },
+        {
+          "id": "t26",
+          "english": "Connect to the hotspot.",
+          "pronunciation": "Konekt tu de hotspot.",
+          "meaning": "Sambungkan ke hotspot."
+        },
+        {
+          "id": "t27",
+          "english": "Restart your phone.",
+          "pronunciation": "Ristart yor foun.",
+          "meaning": "Nyalakan ulang HP-mu."
+        },
+        {
+          "id": "t28",
+          "english": "I need a new laptop.",
+          "pronunciation": "Ai nid e nyu leptop.",
+          "meaning": "Aku butuh laptop baru."
+        },
+        {
+          "id": "t29",
+          "english": "The camera is not working.",
+          "pronunciation": "De kemera is not werking.",
+          "meaning": "Kameranya tidak berfungsi."
+        },
+        {
+          "id": "t30",
+          "english": "Enable two-factor authentication.",
+          "pronunciation": "Ineibel tu-fekter otentikeisyen.",
+          "meaning": "Aktifkan autentikasi dua faktor."
+        },
+        {
+          "id": "t31",
+          "english": "My account got suspended.",
+          "pronunciation": "Mai akaun got saspendid.",
+          "meaning": "Akunku ditangguhkan."
+        },
+        {
+          "id": "t32",
+          "english": "Back up your data.",
+          "pronunciation": "Bek ap yor deita.",
+          "meaning": "Cadangkan datamu."
+        },
+        {
+          "id": "t33",
+          "english": "The file is too large.",
+          "pronunciation": "De fail is tu larj.",
+          "meaning": "Filenya terlalu besar."
+        },
+        {
+          "id": "t34",
+          "english": "I'll send you the link.",
+          "pronunciation": "Ail send yu de link.",
+          "meaning": "Aku kirimkan linknya."
+        },
+        {
+          "id": "t35",
+          "english": "Don't click that link.",
+          "pronunciation": "Dount klik det link.",
+          "meaning": "Jangan klik link itu."
+        },
+        {
+          "id": "t36",
+          "english": "Swipe right to like.",
+          "pronunciation": "Swaip rait tu laik.",
+          "meaning": "Geser kanan untuk suka."
+        },
+        {
+          "id": "t37",
+          "english": "The website is down.",
+          "pronunciation": "De websait is daun.",
+          "meaning": "Websitenya sedang mati."
+        },
+        {
+          "id": "t38",
+          "english": "I'm going viral!",
+          "pronunciation": "Aim going vairal!",
+          "meaning": "Aku jadi viral!"
+        },
+        {
+          "id": "t39",
+          "english": "Unsubscribe from the newsletter.",
+          "pronunciation": "Ansabskraib from de nyusleter.",
+          "meaning": "Berhenti langganan dari newsletter."
+        },
+        {
+          "id": "t40",
+          "english": "Can you zoom in?",
+          "pronunciation": "Ken yu zum in?",
+          "meaning": "Bisa perbesar?"
+        },
+        {
+          "id": "t41",
+          "english": "Save it to the cloud.",
+          "pronunciation": "Seiv it tu de klaud.",
+          "meaning": "Simpan ke cloud."
+        },
+        {
+          "id": "t42",
+          "english": "I got a spam message.",
+          "pronunciation": "Ai got e spem mesej.",
+          "meaning": "Aku dapat pesan spam."
+        },
+        {
+          "id": "t43",
+          "english": "Turn off notifications.",
+          "pronunciation": "Tern of notifikeisyens.",
+          "meaning": "Matikan notifikasi."
+        },
+        {
+          "id": "t44",
+          "english": "The printer is jammed.",
+          "pronunciation": "De printer is jemd.",
+          "meaning": "Printernya macet."
+        },
+        {
+          "id": "t45",
+          "english": "Use dark mode.",
+          "pronunciation": "Yuz dark moud.",
+          "meaning": "Gunakan mode gelap."
+        },
+        {
+          "id": "t46",
+          "english": "My earbuds are broken.",
+          "pronunciation": "Mai irbuds ar brouken.",
+          "meaning": "Earbuds-ku rusak."
+        },
+        {
+          "id": "t47",
+          "english": "Stream the movie online.",
+          "pronunciation": "Strim de muvi onlain.",
+          "meaning": "Streaming filmnya online."
+        },
+        {
+          "id": "t48",
+          "english": "I need a VPN.",
+          "pronunciation": "Ai nid e vi-pi-en.",
+          "meaning": "Aku butuh VPN."
+        },
+        {
+          "id": "t49",
+          "english": "Check your spam folder.",
+          "pronunciation": "Cek yor spem foulder.",
+          "meaning": "Cek folder spam-mu."
+        },
+        {
+          "id": "t50",
+          "english": "The touchscreen is cracked.",
+          "pronunciation": "De tacskrin is krekt.",
+          "meaning": "Layar sentuhnya retak."
+        }
       ]
     },
     {
@@ -34,26 +314,306 @@
       "icon": "👋",
       "color": "#10B981",
       "words": [
-        { "id": "g1", "english": "Good morning!", "pronunciation": "Gud morning!", "meaning": "Selamat pagi!" },
-        { "id": "g2", "english": "Good afternoon!", "pronunciation": "Gud afternun!", "meaning": "Selamat siang!" },
-        { "id": "g3", "english": "Good evening!", "pronunciation": "Gud ivning!", "meaning": "Selamat malam!" },
-        { "id": "g4", "english": "How are you?", "pronunciation": "Hau ar yu?", "meaning": "Apa kabar?" },
-        { "id": "g5", "english": "I'm fine, thank you.", "pronunciation": "Aim fain, tengk yu.", "meaning": "Aku baik-baik saja, terima kasih." },
-        { "id": "g6", "english": "Nice to meet you.", "pronunciation": "Nais tu mit yu.", "meaning": "Senang bertemu denganmu." },
-        { "id": "g7", "english": "What is your name?", "pronunciation": "Wot is yor neim?", "meaning": "Siapa namamu?" },
-        { "id": "g8", "english": "My name is...", "pronunciation": "Mai neim is...", "meaning": "Namaku adalah..." },
-        { "id": "g9", "english": "Where are you from?", "pronunciation": "Wer ar yu from?", "meaning": "Kamu dari mana?" },
-        { "id": "g10", "english": "I'm from Indonesia.", "pronunciation": "Aim from Indonesia.", "meaning": "Aku dari Indonesia." },
-        { "id": "g11", "english": "See you later!", "pronunciation": "Si yu leiter!", "meaning": "Sampai jumpa!" },
-        { "id": "g12", "english": "Take care!", "pronunciation": "Teik ker!", "meaning": "Jaga diri ya!" },
-        { "id": "g13", "english": "Have a great day!", "pronunciation": "Hev e greit dei!", "meaning": "Semoga harimu menyenangkan!" },
-        { "id": "g14", "english": "Long time no see!", "pronunciation": "Long taim nou si!", "meaning": "Lama tidak bertemu!" },
-        { "id": "g15", "english": "How have you been?", "pronunciation": "Hau hev yu bin?", "meaning": "Bagaimana kabarmu belakangan ini?" },
-        { "id": "g16", "english": "It's good to see you.", "pronunciation": "Its gud tu si yu.", "meaning": "Senang melihatmu." },
-        { "id": "g17", "english": "I missed you.", "pronunciation": "Ai mist yu.", "meaning": "Aku merindukanmu." },
-        { "id": "g18", "english": "Good night!", "pronunciation": "Gud nait!", "meaning": "Selamat tidur!" },
-        { "id": "g19", "english": "Welcome!", "pronunciation": "Welkem!", "meaning": "Selamat datang!" },
-        { "id": "g20", "english": "Goodbye!", "pronunciation": "Gudbai!", "meaning": "Selamat tinggal!" }
+        {
+          "id": "g1",
+          "english": "Good morning!",
+          "pronunciation": "Gud morning!",
+          "meaning": "Selamat pagi!"
+        },
+        {
+          "id": "g2",
+          "english": "Good afternoon!",
+          "pronunciation": "Gud afternun!",
+          "meaning": "Selamat siang!"
+        },
+        {
+          "id": "g3",
+          "english": "Good evening!",
+          "pronunciation": "Gud ivning!",
+          "meaning": "Selamat malam!"
+        },
+        {
+          "id": "g4",
+          "english": "How are you?",
+          "pronunciation": "Hau ar yu?",
+          "meaning": "Apa kabar?"
+        },
+        {
+          "id": "g5",
+          "english": "I'm fine, thank you.",
+          "pronunciation": "Aim fain, tengk yu.",
+          "meaning": "Aku baik-baik saja, terima kasih."
+        },
+        {
+          "id": "g6",
+          "english": "Nice to meet you.",
+          "pronunciation": "Nais tu mit yu.",
+          "meaning": "Senang bertemu denganmu."
+        },
+        {
+          "id": "g7",
+          "english": "What is your name?",
+          "pronunciation": "Wot is yor neim?",
+          "meaning": "Siapa namamu?"
+        },
+        {
+          "id": "g8",
+          "english": "My name is...",
+          "pronunciation": "Mai neim is...",
+          "meaning": "Namaku adalah..."
+        },
+        {
+          "id": "g9",
+          "english": "Where are you from?",
+          "pronunciation": "Wer ar yu from?",
+          "meaning": "Kamu dari mana?"
+        },
+        {
+          "id": "g10",
+          "english": "I'm from Indonesia.",
+          "pronunciation": "Aim from Indonesia.",
+          "meaning": "Aku dari Indonesia."
+        },
+        {
+          "id": "g11",
+          "english": "See you later!",
+          "pronunciation": "Si yu leiter!",
+          "meaning": "Sampai jumpa!"
+        },
+        {
+          "id": "g12",
+          "english": "Take care!",
+          "pronunciation": "Teik ker!",
+          "meaning": "Jaga diri ya!"
+        },
+        {
+          "id": "g13",
+          "english": "Have a great day!",
+          "pronunciation": "Hev e greit dei!",
+          "meaning": "Semoga harimu menyenangkan!"
+        },
+        {
+          "id": "g14",
+          "english": "Long time no see!",
+          "pronunciation": "Long taim nou si!",
+          "meaning": "Lama tidak bertemu!"
+        },
+        {
+          "id": "g15",
+          "english": "How have you been?",
+          "pronunciation": "Hau hev yu bin?",
+          "meaning": "Bagaimana kabarmu belakangan ini?"
+        },
+        {
+          "id": "g16",
+          "english": "It's good to see you.",
+          "pronunciation": "Its gud tu si yu.",
+          "meaning": "Senang melihatmu."
+        },
+        {
+          "id": "g17",
+          "english": "I missed you.",
+          "pronunciation": "Ai mist yu.",
+          "meaning": "Aku merindukanmu."
+        },
+        {
+          "id": "g18",
+          "english": "Good night!",
+          "pronunciation": "Gud nait!",
+          "meaning": "Selamat tidur!"
+        },
+        {
+          "id": "g19",
+          "english": "Welcome!",
+          "pronunciation": "Welkem!",
+          "meaning": "Selamat datang!"
+        },
+        {
+          "id": "g20",
+          "english": "Goodbye!",
+          "pronunciation": "Gudbai!",
+          "meaning": "Selamat tinggal!"
+        },
+        {
+          "id": "g21",
+          "english": "What's up?",
+          "pronunciation": "Wots ap?",
+          "meaning": "Ada apa? / Halo!"
+        },
+        {
+          "id": "g22",
+          "english": "How's it going?",
+          "pronunciation": "Haus it going?",
+          "meaning": "Bagaimana kabarmu?"
+        },
+        {
+          "id": "g23",
+          "english": "Pleased to meet you.",
+          "pronunciation": "Plizd tu mit yu.",
+          "meaning": "Senang berkenalan denganmu."
+        },
+        {
+          "id": "g24",
+          "english": "How old are you?",
+          "pronunciation": "Hau ould ar yu?",
+          "meaning": "Berapa umurmu?"
+        },
+        {
+          "id": "g25",
+          "english": "What do you do?",
+          "pronunciation": "Wot du yu du?",
+          "meaning": "Apa pekerjaanmu?"
+        },
+        {
+          "id": "g26",
+          "english": "I'm a student.",
+          "pronunciation": "Aim e styudent.",
+          "meaning": "Aku seorang pelajar."
+        },
+        {
+          "id": "g27",
+          "english": "Do you speak English?",
+          "pronunciation": "Du yu spik Inglish?",
+          "meaning": "Apakah kamu berbicara bahasa Inggris?"
+        },
+        {
+          "id": "g28",
+          "english": "Just a little.",
+          "pronunciation": "Jast e litel.",
+          "meaning": "Sedikit saja."
+        },
+        {
+          "id": "g29",
+          "english": "May I introduce myself?",
+          "pronunciation": "Mei ai introduys maiself?",
+          "meaning": "Boleh saya memperkenalkan diri?"
+        },
+        {
+          "id": "g30",
+          "english": "I'm sorry, what's your name again?",
+          "pronunciation": "Aim sori, wots yor neim agen?",
+          "meaning": "Maaf, siapa namamu tadi?"
+        },
+        {
+          "id": "g31",
+          "english": "This is my friend.",
+          "pronunciation": "Dis is mai frend.",
+          "meaning": "Ini temanku."
+        },
+        {
+          "id": "g32",
+          "english": "Have a safe trip!",
+          "pronunciation": "Hev e seif trip!",
+          "meaning": "Semoga perjalananmu aman!"
+        },
+        {
+          "id": "g33",
+          "english": "See you tomorrow!",
+          "pronunciation": "Si yu tumorou!",
+          "meaning": "Sampai jumpa besok!"
+        },
+        {
+          "id": "g34",
+          "english": "Catch you later!",
+          "pronunciation": "Kec yu leiter!",
+          "meaning": "Sampai nanti!"
+        },
+        {
+          "id": "g35",
+          "english": "Stay in touch!",
+          "pronunciation": "Stei in tac!",
+          "meaning": "Tetap berhubungan ya!"
+        },
+        {
+          "id": "g36",
+          "english": "It was nice talking to you.",
+          "pronunciation": "It wos nais toking tu yu.",
+          "meaning": "Senang berbicara denganmu."
+        },
+        {
+          "id": "g37",
+          "english": "Give my regards to your family.",
+          "pronunciation": "Giv mai rigards tu yor femili.",
+          "meaning": "Sampaikan salamku untuk keluargamu."
+        },
+        {
+          "id": "g38",
+          "english": "I live in Jakarta.",
+          "pronunciation": "Ai liv in Jakarta.",
+          "meaning": "Aku tinggal di Jakarta."
+        },
+        {
+          "id": "g39",
+          "english": "How do you spell your name?",
+          "pronunciation": "Hau du yu spel yor neim?",
+          "meaning": "Bagaimana cara mengeja namamu?"
+        },
+        {
+          "id": "g40",
+          "english": "What's your phone number?",
+          "pronunciation": "Wots yor foun namber?",
+          "meaning": "Berapa nomor teleponmu?"
+        },
+        {
+          "id": "g41",
+          "english": "Can I add you on Instagram?",
+          "pronunciation": "Ken ai ed yu on Instagram?",
+          "meaning": "Boleh aku tambahkan kamu di Instagram?"
+        },
+        {
+          "id": "g42",
+          "english": "Let's keep in touch.",
+          "pronunciation": "Lets kip in tac.",
+          "meaning": "Ayo tetap berkomunikasi."
+        },
+        {
+          "id": "g43",
+          "english": "I'm glad to see you again.",
+          "pronunciation": "Aim gled tu si yu agen.",
+          "meaning": "Aku senang bertemu kamu lagi."
+        },
+        {
+          "id": "g44",
+          "english": "What brings you here?",
+          "pronunciation": "Wot brings yu hir?",
+          "meaning": "Apa yang membawamu ke sini?"
+        },
+        {
+          "id": "g45",
+          "english": "I'm here on vacation.",
+          "pronunciation": "Aim hir on vekeisyen.",
+          "meaning": "Aku di sini untuk liburan."
+        },
+        {
+          "id": "g46",
+          "english": "Have a wonderful weekend!",
+          "pronunciation": "Hev e wanderful wikend!",
+          "meaning": "Semoga akhir pekanmu menyenangkan!"
+        },
+        {
+          "id": "g47",
+          "english": "Congratulations!",
+          "pronunciation": "Kongretyuleisyens!",
+          "meaning": "Selamat!"
+        },
+        {
+          "id": "g48",
+          "english": "Happy birthday!",
+          "pronunciation": "Hepi bertdei!",
+          "meaning": "Selamat ulang tahun!"
+        },
+        {
+          "id": "g49",
+          "english": "Best wishes!",
+          "pronunciation": "Best wisyes!",
+          "meaning": "Harapan terbaik!"
+        },
+        {
+          "id": "g50",
+          "english": "Excuse me, are you Mr. Smith?",
+          "pronunciation": "Ikskyuz mi, ar yu Mister Smith?",
+          "meaning": "Permisi, apakah Anda Pak Smith?"
+        }
       ]
     },
     {
@@ -62,26 +622,306 @@
       "icon": "🍽️",
       "color": "#EF4444",
       "words": [
-        { "id": "m1", "english": "I'm hungry.", "pronunciation": "Aim hangri.", "meaning": "Aku lapar." },
-        { "id": "m2", "english": "I'm thirsty.", "pronunciation": "Aim tersty.", "meaning": "Aku haus." },
-        { "id": "m3", "english": "Can I see the menu?", "pronunciation": "Ken ai si de menyu?", "meaning": "Boleh saya lihat menunya?" },
-        { "id": "m4", "english": "I'd like to order.", "pronunciation": "Aid laik tu order.", "meaning": "Saya ingin memesan." },
-        { "id": "m5", "english": "This is delicious!", "pronunciation": "Dis is dilisyes!", "meaning": "Ini enak sekali!" },
-        { "id": "m6", "english": "What do you recommend?", "pronunciation": "Wot du yu rekemend?", "meaning": "Apa yang kamu rekomendasikan?" },
-        { "id": "m7", "english": "I'm allergic to nuts.", "pronunciation": "Aim alerjik tu nats.", "meaning": "Aku alergi kacang." },
-        { "id": "m8", "english": "Can I get the bill?", "pronunciation": "Ken ai get de bil?", "meaning": "Boleh minta bon-nya?" },
-        { "id": "m9", "english": "Is this spicy?", "pronunciation": "Is dis spaisi?", "meaning": "Apakah ini pedas?" },
-        { "id": "m10", "english": "I'll have the same.", "pronunciation": "Ail hev de seim.", "meaning": "Aku pesan yang sama." },
-        { "id": "m11", "english": "No sugar, please.", "pronunciation": "Nou syugar, pliz.", "meaning": "Tanpa gula, tolong." },
-        { "id": "m12", "english": "Can I take this to go?", "pronunciation": "Ken ai teik dis tu gou?", "meaning": "Boleh dibungkus?" },
-        { "id": "m13", "english": "The food is cold.", "pronunciation": "De fud is kould.", "meaning": "Makanannya dingin." },
-        { "id": "m14", "english": "I need a fork.", "pronunciation": "Ai nid e fork.", "meaning": "Aku butuh garpu." },
-        { "id": "m15", "english": "Split the bill.", "pronunciation": "Split de bil.", "meaning": "Bayar masing-masing." },
-        { "id": "m16", "english": "One more, please.", "pronunciation": "Wan mor, pliz.", "meaning": "Satu lagi, tolong." },
-        { "id": "m17", "english": "I'm full.", "pronunciation": "Aim ful.", "meaning": "Aku kenyang." },
-        { "id": "m18", "english": "Do you have vegetarian options?", "pronunciation": "Du yu hev vejeterian opsyens?", "meaning": "Ada pilihan vegetarian?" },
-        { "id": "m19", "english": "Warm water, please.", "pronunciation": "Worm woter, pliz.", "meaning": "Air hangat, tolong." },
-        { "id": "m20", "english": "This is too salty.", "pronunciation": "Dis is tu solti.", "meaning": "Ini terlalu asin." }
+        {
+          "id": "m1",
+          "english": "I'm hungry.",
+          "pronunciation": "Aim hangri.",
+          "meaning": "Aku lapar."
+        },
+        {
+          "id": "m2",
+          "english": "I'm thirsty.",
+          "pronunciation": "Aim tersty.",
+          "meaning": "Aku haus."
+        },
+        {
+          "id": "m3",
+          "english": "Can I see the menu?",
+          "pronunciation": "Ken ai si de menyu?",
+          "meaning": "Boleh saya lihat menunya?"
+        },
+        {
+          "id": "m4",
+          "english": "I'd like to order.",
+          "pronunciation": "Aid laik tu order.",
+          "meaning": "Saya ingin memesan."
+        },
+        {
+          "id": "m5",
+          "english": "This is delicious!",
+          "pronunciation": "Dis is dilisyes!",
+          "meaning": "Ini enak sekali!"
+        },
+        {
+          "id": "m6",
+          "english": "What do you recommend?",
+          "pronunciation": "Wot du yu rekemend?",
+          "meaning": "Apa yang kamu rekomendasikan?"
+        },
+        {
+          "id": "m7",
+          "english": "I'm allergic to nuts.",
+          "pronunciation": "Aim alerjik tu nats.",
+          "meaning": "Aku alergi kacang."
+        },
+        {
+          "id": "m8",
+          "english": "Can I get the bill?",
+          "pronunciation": "Ken ai get de bil?",
+          "meaning": "Boleh minta bon-nya?"
+        },
+        {
+          "id": "m9",
+          "english": "Is this spicy?",
+          "pronunciation": "Is dis spaisi?",
+          "meaning": "Apakah ini pedas?"
+        },
+        {
+          "id": "m10",
+          "english": "I'll have the same.",
+          "pronunciation": "Ail hev de seim.",
+          "meaning": "Aku pesan yang sama."
+        },
+        {
+          "id": "m11",
+          "english": "No sugar, please.",
+          "pronunciation": "Nou syugar, pliz.",
+          "meaning": "Tanpa gula, tolong."
+        },
+        {
+          "id": "m12",
+          "english": "Can I take this to go?",
+          "pronunciation": "Ken ai teik dis tu gou?",
+          "meaning": "Boleh dibungkus?"
+        },
+        {
+          "id": "m13",
+          "english": "The food is cold.",
+          "pronunciation": "De fud is kould.",
+          "meaning": "Makanannya dingin."
+        },
+        {
+          "id": "m14",
+          "english": "I need a fork.",
+          "pronunciation": "Ai nid e fork.",
+          "meaning": "Aku butuh garpu."
+        },
+        {
+          "id": "m15",
+          "english": "Split the bill.",
+          "pronunciation": "Split de bil.",
+          "meaning": "Bayar masing-masing."
+        },
+        {
+          "id": "m16",
+          "english": "One more, please.",
+          "pronunciation": "Wan mor, pliz.",
+          "meaning": "Satu lagi, tolong."
+        },
+        {
+          "id": "m17",
+          "english": "I'm full.",
+          "pronunciation": "Aim ful.",
+          "meaning": "Aku kenyang."
+        },
+        {
+          "id": "m18",
+          "english": "Do you have vegetarian options?",
+          "pronunciation": "Du yu hev vejeterian opsyens?",
+          "meaning": "Ada pilihan vegetarian?"
+        },
+        {
+          "id": "m19",
+          "english": "Warm water, please.",
+          "pronunciation": "Worm woter, pliz.",
+          "meaning": "Air hangat, tolong."
+        },
+        {
+          "id": "m20",
+          "english": "This is too salty.",
+          "pronunciation": "Dis is tu solti.",
+          "meaning": "Ini terlalu asin."
+        },
+        {
+          "id": "m21",
+          "english": "I'd like a glass of water.",
+          "pronunciation": "Aid laik e gles of woter.",
+          "meaning": "Saya mau segelas air."
+        },
+        {
+          "id": "m22",
+          "english": "Do you have a table for two?",
+          "pronunciation": "Du yu hev e teibel for tu?",
+          "meaning": "Ada meja untuk dua orang?"
+        },
+        {
+          "id": "m23",
+          "english": "I'll have coffee, please.",
+          "pronunciation": "Ail hev kofi, pliz.",
+          "meaning": "Saya pesan kopi."
+        },
+        {
+          "id": "m24",
+          "english": "Is this halal?",
+          "pronunciation": "Is dis halal?",
+          "meaning": "Apakah ini halal?"
+        },
+        {
+          "id": "m25",
+          "english": "The steak is well done.",
+          "pronunciation": "De steik is wel dan.",
+          "meaning": "Steaknya matang sempurna."
+        },
+        {
+          "id": "m26",
+          "english": "Can I get extra sauce?",
+          "pronunciation": "Ken ai get ekstra sos?",
+          "meaning": "Boleh minta saus tambahan?"
+        },
+        {
+          "id": "m27",
+          "english": "I prefer iced tea.",
+          "pronunciation": "Ai prefer aist ti.",
+          "meaning": "Aku lebih suka es teh."
+        },
+        {
+          "id": "m28",
+          "english": "This tastes strange.",
+          "pronunciation": "Dis teists streinj.",
+          "meaning": "Rasanya aneh."
+        },
+        {
+          "id": "m29",
+          "english": "I'm on a diet.",
+          "pronunciation": "Aim on e daiet.",
+          "meaning": "Aku sedang diet."
+        },
+        {
+          "id": "m30",
+          "english": "Where is a good restaurant?",
+          "pronunciation": "Wer is e gud restorant?",
+          "meaning": "Di mana restoran yang bagus?"
+        },
+        {
+          "id": "m31",
+          "english": "I love Indonesian food.",
+          "pronunciation": "Ai lav Indonesyen fud.",
+          "meaning": "Aku suka makanan Indonesia."
+        },
+        {
+          "id": "m32",
+          "english": "The portion is too small.",
+          "pronunciation": "De porsyen is tu smol.",
+          "meaning": "Porsinya terlalu kecil."
+        },
+        {
+          "id": "m33",
+          "english": "Do you serve breakfast?",
+          "pronunciation": "Du yu serv brekfest?",
+          "meaning": "Apakah kalian menyajikan sarapan?"
+        },
+        {
+          "id": "m34",
+          "english": "I'll have what she's having.",
+          "pronunciation": "Ail hev wot syis heving.",
+          "meaning": "Aku pesan yang sama dengannya."
+        },
+        {
+          "id": "m35",
+          "english": "No ice, please.",
+          "pronunciation": "Nou ais, pliz.",
+          "meaning": "Tanpa es, tolong."
+        },
+        {
+          "id": "m36",
+          "english": "The soup is too hot.",
+          "pronunciation": "De sup is tu hot.",
+          "meaning": "Supnya terlalu panas."
+        },
+        {
+          "id": "m37",
+          "english": "Can I get a straw?",
+          "pronunciation": "Ken ai get e stro?",
+          "meaning": "Boleh minta sedotan?"
+        },
+        {
+          "id": "m38",
+          "english": "I want it medium rare.",
+          "pronunciation": "Ai wont it midium rer.",
+          "meaning": "Aku mau setengah matang."
+        },
+        {
+          "id": "m39",
+          "english": "This is undercooked.",
+          "pronunciation": "Dis is anderkukt.",
+          "meaning": "Ini kurang matang."
+        },
+        {
+          "id": "m40",
+          "english": "Do you deliver?",
+          "pronunciation": "Du yu deliver?",
+          "meaning": "Apakah kalian antar?"
+        },
+        {
+          "id": "m41",
+          "english": "I need a napkin.",
+          "pronunciation": "Ai nid e nepkin.",
+          "meaning": "Aku butuh tisu."
+        },
+        {
+          "id": "m42",
+          "english": "Let's eat out tonight.",
+          "pronunciation": "Lets it aut tunait.",
+          "meaning": "Ayo makan di luar malam ini."
+        },
+        {
+          "id": "m43",
+          "english": "The dessert looks amazing.",
+          "pronunciation": "De dizert luks emezing.",
+          "meaning": "Pencuci mulutnya terlihat menakjubkan."
+        },
+        {
+          "id": "m44",
+          "english": "I'm a picky eater.",
+          "pronunciation": "Aim e piki iter.",
+          "meaning": "Aku pemilih soal makanan."
+        },
+        {
+          "id": "m45",
+          "english": "Is there MSG in this?",
+          "pronunciation": "Is der em-es-ji in dis?",
+          "meaning": "Apakah ada MSG di dalamnya?"
+        },
+        {
+          "id": "m46",
+          "english": "The waiter is friendly.",
+          "pronunciation": "De weiter is frendli.",
+          "meaning": "Pelayannya ramah."
+        },
+        {
+          "id": "m47",
+          "english": "I'd like to make a reservation.",
+          "pronunciation": "Aid laik tu meik e rezerveisyen.",
+          "meaning": "Saya ingin membuat reservasi."
+        },
+        {
+          "id": "m48",
+          "english": "Can I see the dessert menu?",
+          "pronunciation": "Ken ai si de dizert menyu?",
+          "meaning": "Boleh lihat menu pencuci mulut?"
+        },
+        {
+          "id": "m49",
+          "english": "Leave a tip for the waiter.",
+          "pronunciation": "Liv e tip for de weiter.",
+          "meaning": "Berikan tip untuk pelayan."
+        },
+        {
+          "id": "m50",
+          "english": "The food was outstanding.",
+          "pronunciation": "De fud wos autstending.",
+          "meaning": "Makanannya luar biasa."
+        }
       ]
     },
     {
@@ -90,26 +930,306 @@
       "icon": "✈️",
       "color": "#3B82F6",
       "words": [
-        { "id": "p1", "english": "Where is the station?", "pronunciation": "Wer is de steisyen?", "meaning": "Di mana stasiunnya?" },
-        { "id": "p2", "english": "How much is the ticket?", "pronunciation": "Hau mac is de tiket?", "meaning": "Berapa harga tiketnya?" },
-        { "id": "p3", "english": "I need a taxi.", "pronunciation": "Ai nid e teksi.", "meaning": "Aku butuh taksi." },
-        { "id": "p4", "english": "Turn left here.", "pronunciation": "Tern left hir.", "meaning": "Belok kiri di sini." },
-        { "id": "p5", "english": "Go straight ahead.", "pronunciation": "Gou streit ehed.", "meaning": "Jalan lurus terus." },
-        { "id": "p6", "english": "I'm lost.", "pronunciation": "Aim lost.", "meaning": "Aku tersesat." },
-        { "id": "p7", "english": "Is it far from here?", "pronunciation": "Is it far from hir?", "meaning": "Apakah itu jauh dari sini?" },
-        { "id": "p8", "english": "I missed my flight.", "pronunciation": "Ai mist mai flait.", "meaning": "Aku ketinggalan pesawat." },
-        { "id": "p9", "english": "Where do I check in?", "pronunciation": "Wer du ai cek in?", "meaning": "Di mana tempat check-in?" },
-        { "id": "p10", "english": "This is my luggage.", "pronunciation": "Dis is mai lagej.", "meaning": "Ini bagasi-ku." },
-        { "id": "p11", "english": "Can I see your passport?", "pronunciation": "Ken ai si yor pasport?", "meaning": "Boleh saya lihat paspormu?" },
-        { "id": "p12", "english": "Book a hotel room.", "pronunciation": "Buk e houtel rum.", "meaning": "Pesan kamar hotel." },
-        { "id": "p13", "english": "What time does it arrive?", "pronunciation": "Wot taim daz it eraiv?", "meaning": "Jam berapa tiba?" },
-        { "id": "p14", "english": "I have a reservation.", "pronunciation": "Ai hev e rezerveisyen.", "meaning": "Aku punya reservasi." },
-        { "id": "p15", "english": "Where is the nearest ATM?", "pronunciation": "Wer is de nirest ATM?", "meaning": "Di mana ATM terdekat?" },
-        { "id": "p16", "english": "The train is delayed.", "pronunciation": "De trein is dileid.", "meaning": "Keretanya terlambat." },
-        { "id": "p17", "english": "Can you drive faster?", "pronunciation": "Ken yu draiv fester?", "meaning": "Bisa lebih cepat?" },
-        { "id": "p18", "english": "Stop here, please.", "pronunciation": "Stop hir, pliz.", "meaning": "Berhenti di sini, tolong." },
-        { "id": "p19", "english": "How long is the journey?", "pronunciation": "Hau long is de jerni?", "meaning": "Berapa lama perjalanannya?" },
-        { "id": "p20", "english": "I need directions.", "pronunciation": "Ai nid direksyns.", "meaning": "Aku butuh petunjuk arah." }
+        {
+          "id": "p1",
+          "english": "Where is the station?",
+          "pronunciation": "Wer is de steisyen?",
+          "meaning": "Di mana stasiunnya?"
+        },
+        {
+          "id": "p2",
+          "english": "How much is the ticket?",
+          "pronunciation": "Hau mac is de tiket?",
+          "meaning": "Berapa harga tiketnya?"
+        },
+        {
+          "id": "p3",
+          "english": "I need a taxi.",
+          "pronunciation": "Ai nid e teksi.",
+          "meaning": "Aku butuh taksi."
+        },
+        {
+          "id": "p4",
+          "english": "Turn left here.",
+          "pronunciation": "Tern left hir.",
+          "meaning": "Belok kiri di sini."
+        },
+        {
+          "id": "p5",
+          "english": "Go straight ahead.",
+          "pronunciation": "Gou streit ehed.",
+          "meaning": "Jalan lurus terus."
+        },
+        {
+          "id": "p6",
+          "english": "I'm lost.",
+          "pronunciation": "Aim lost.",
+          "meaning": "Aku tersesat."
+        },
+        {
+          "id": "p7",
+          "english": "Is it far from here?",
+          "pronunciation": "Is it far from hir?",
+          "meaning": "Apakah itu jauh dari sini?"
+        },
+        {
+          "id": "p8",
+          "english": "I missed my flight.",
+          "pronunciation": "Ai mist mai flait.",
+          "meaning": "Aku ketinggalan pesawat."
+        },
+        {
+          "id": "p9",
+          "english": "Where do I check in?",
+          "pronunciation": "Wer du ai cek in?",
+          "meaning": "Di mana tempat check-in?"
+        },
+        {
+          "id": "p10",
+          "english": "This is my luggage.",
+          "pronunciation": "Dis is mai lagej.",
+          "meaning": "Ini bagasi-ku."
+        },
+        {
+          "id": "p11",
+          "english": "Can I see your passport?",
+          "pronunciation": "Ken ai si yor pasport?",
+          "meaning": "Boleh saya lihat paspormu?"
+        },
+        {
+          "id": "p12",
+          "english": "Book a hotel room.",
+          "pronunciation": "Buk e houtel rum.",
+          "meaning": "Pesan kamar hotel."
+        },
+        {
+          "id": "p13",
+          "english": "What time does it arrive?",
+          "pronunciation": "Wot taim daz it eraiv?",
+          "meaning": "Jam berapa tiba?"
+        },
+        {
+          "id": "p14",
+          "english": "I have a reservation.",
+          "pronunciation": "Ai hev e rezerveisyen.",
+          "meaning": "Aku punya reservasi."
+        },
+        {
+          "id": "p15",
+          "english": "Where is the nearest ATM?",
+          "pronunciation": "Wer is de nirest ATM?",
+          "meaning": "Di mana ATM terdekat?"
+        },
+        {
+          "id": "p16",
+          "english": "The train is delayed.",
+          "pronunciation": "De trein is dileid.",
+          "meaning": "Keretanya terlambat."
+        },
+        {
+          "id": "p17",
+          "english": "Can you drive faster?",
+          "pronunciation": "Ken yu draiv fester?",
+          "meaning": "Bisa lebih cepat?"
+        },
+        {
+          "id": "p18",
+          "english": "Stop here, please.",
+          "pronunciation": "Stop hir, pliz.",
+          "meaning": "Berhenti di sini, tolong."
+        },
+        {
+          "id": "p19",
+          "english": "How long is the journey?",
+          "pronunciation": "Hau long is de jerni?",
+          "meaning": "Berapa lama perjalanannya?"
+        },
+        {
+          "id": "p20",
+          "english": "I need directions.",
+          "pronunciation": "Ai nid direksyns.",
+          "meaning": "Aku butuh petunjuk arah."
+        },
+        {
+          "id": "p21",
+          "english": "Where is the bus stop?",
+          "pronunciation": "Wer is de bas stop?",
+          "meaning": "Di mana halte bus?"
+        },
+        {
+          "id": "p22",
+          "english": "I need to book a flight.",
+          "pronunciation": "Ai nid tu buk e flait.",
+          "meaning": "Aku perlu memesan penerbangan."
+        },
+        {
+          "id": "p23",
+          "english": "What gate is my flight?",
+          "pronunciation": "Wot geit is mai flait?",
+          "meaning": "Gate berapa penerbanganku?"
+        },
+        {
+          "id": "p24",
+          "english": "My luggage is missing.",
+          "pronunciation": "Mai lagej is mising.",
+          "meaning": "Bagasiku hilang."
+        },
+        {
+          "id": "p25",
+          "english": "Is there a direct flight?",
+          "pronunciation": "Is der e direkt flait?",
+          "meaning": "Ada penerbangan langsung?"
+        },
+        {
+          "id": "p26",
+          "english": "Can I get an aisle seat?",
+          "pronunciation": "Ken ai get en ail sit?",
+          "meaning": "Boleh minta kursi di lorong?"
+        },
+        {
+          "id": "p27",
+          "english": "The road is blocked.",
+          "pronunciation": "De roud is blokt.",
+          "meaning": "Jalannya diblokir."
+        },
+        {
+          "id": "p28",
+          "english": "I need to rent a car.",
+          "pronunciation": "Ai nid tu rent e kar.",
+          "meaning": "Aku perlu sewa mobil."
+        },
+        {
+          "id": "p29",
+          "english": "Where can I park?",
+          "pronunciation": "Wer ken ai park?",
+          "meaning": "Di mana aku bisa parkir?"
+        },
+        {
+          "id": "p30",
+          "english": "The traffic is terrible.",
+          "pronunciation": "De trefik is teribel.",
+          "meaning": "Lalu lintasnya parah."
+        },
+        {
+          "id": "p31",
+          "english": "Fasten your seatbelt.",
+          "pronunciation": "Fasen yor sitbelt.",
+          "meaning": "Kenakan sabuk pengaman."
+        },
+        {
+          "id": "p32",
+          "english": "I want a window seat.",
+          "pronunciation": "Ai wont e windou sit.",
+          "meaning": "Aku mau kursi dekat jendela."
+        },
+        {
+          "id": "p33",
+          "english": "Which platform for the train?",
+          "pronunciation": "Wic pletform for de trein?",
+          "meaning": "Kereta di peron berapa?"
+        },
+        {
+          "id": "p34",
+          "english": "Do I need a visa?",
+          "pronunciation": "Du ai nid e visa?",
+          "meaning": "Apakah aku perlu visa?"
+        },
+        {
+          "id": "p35",
+          "english": "I'd like to extend my stay.",
+          "pronunciation": "Aid laik tu ikstend mai stei.",
+          "meaning": "Saya ingin memperpanjang tinggal."
+        },
+        {
+          "id": "p36",
+          "english": "Is breakfast included?",
+          "pronunciation": "Is brekfest inkluded?",
+          "meaning": "Apakah sarapan termasuk?"
+        },
+        {
+          "id": "p37",
+          "english": "I need a one-way ticket.",
+          "pronunciation": "Ai nid e wan-wei tiket.",
+          "meaning": "Aku butuh tiket sekali jalan."
+        },
+        {
+          "id": "p38",
+          "english": "Can you call me a ride?",
+          "pronunciation": "Ken yu kol mi e raid?",
+          "meaning": "Bisa panggilkan aku tumpangan?"
+        },
+        {
+          "id": "p39",
+          "english": "Where is baggage claim?",
+          "pronunciation": "Wer is begej kleim?",
+          "meaning": "Di mana pengambilan bagasi?"
+        },
+        {
+          "id": "p40",
+          "english": "The ferry departs at noon.",
+          "pronunciation": "De feri diparts et nun.",
+          "meaning": "Ferinya berangkat siang."
+        },
+        {
+          "id": "p41",
+          "english": "I want a round-trip ticket.",
+          "pronunciation": "Ai wont e raund-trip tiket.",
+          "meaning": "Aku mau tiket pulang-pergi."
+        },
+        {
+          "id": "p42",
+          "english": "What is the boarding time?",
+          "pronunciation": "Wot is de bording taim?",
+          "meaning": "Jam berapa waktu boarding?"
+        },
+        {
+          "id": "p43",
+          "english": "Keep your passport safe.",
+          "pronunciation": "Kip yor pasport seif.",
+          "meaning": "Jaga paspormu dengan aman."
+        },
+        {
+          "id": "p44",
+          "english": "I'm here for business.",
+          "pronunciation": "Aim hir for biznes.",
+          "meaning": "Aku di sini untuk urusan bisnis."
+        },
+        {
+          "id": "p45",
+          "english": "Where is the currency exchange?",
+          "pronunciation": "Wer is de karensi iksceynj?",
+          "meaning": "Di mana tempat tukar uang?"
+        },
+        {
+          "id": "p46",
+          "english": "Is there a shuttle bus?",
+          "pronunciation": "Is der e syatel bas?",
+          "meaning": "Ada bus antar-jemput?"
+        },
+        {
+          "id": "p47",
+          "english": "I need to declare something.",
+          "pronunciation": "Ai nid tu dикler samting.",
+          "meaning": "Aku perlu mendeklarasikan sesuatu."
+        },
+        {
+          "id": "p48",
+          "english": "What time is check-out?",
+          "pronunciation": "Wot taim is cek-aut?",
+          "meaning": "Jam berapa waktu check-out?"
+        },
+        {
+          "id": "p49",
+          "english": "The flight was turbulent.",
+          "pronunciation": "De flait wos terbyulent.",
+          "meaning": "Penerbangannya berguncang."
+        },
+        {
+          "id": "p50",
+          "english": "Enjoy your vacation!",
+          "pronunciation": "Injoi yor vekeisyen!",
+          "meaning": "Nikmati liburanmu!"
+        }
       ]
     },
     {
@@ -118,26 +1238,306 @@
       "icon": "💼",
       "color": "#8B5CF6",
       "words": [
-        { "id": "k1", "english": "I have a meeting.", "pronunciation": "Ai hev e miting.", "meaning": "Aku ada rapat." },
-        { "id": "k2", "english": "Send me the report.", "pronunciation": "Sen mi de report.", "meaning": "Kirimkan laporannya ke aku." },
-        { "id": "k3", "english": "I'm working from home.", "pronunciation": "Aim werking from houm.", "meaning": "Aku kerja dari rumah." },
-        { "id": "k4", "english": "Can we reschedule?", "pronunciation": "Ken wi riskejul?", "meaning": "Bisa kita jadwal ulang?" },
-        { "id": "k5", "english": "I'm on a deadline.", "pronunciation": "Aim on e dedlain.", "meaning": "Aku sedang kejar deadline." },
-        { "id": "k6", "english": "Please check your email.", "pronunciation": "Pliz cek yor imeil.", "meaning": "Tolong cek emailmu." },
-        { "id": "k7", "english": "The project is done.", "pronunciation": "De projekt is dan.", "meaning": "Proyeknya sudah selesai." },
-        { "id": "k8", "english": "I need your signature.", "pronunciation": "Ai nid yor signecer.", "meaning": "Aku butuh tanda tanganmu." },
-        { "id": "k9", "english": "Join the conference call.", "pronunciation": "Join de konferens kol.", "meaning": "Ikuti panggilan konferens." },
-        { "id": "k10", "english": "You're on mute.", "pronunciation": "Yor on myut.", "meaning": "Kamu dalam mode mute." },
-        { "id": "k11", "english": "Share your screen.", "pronunciation": "Syer yor skrin.", "meaning": "Bagikan layarmu." },
-        { "id": "k12", "english": "I'll handle it.", "pronunciation": "Ail hendel it.", "meaning": "Biar aku yang urus." },
-        { "id": "k13", "english": "Let's meet at 3 PM.", "pronunciation": "Lets mit et thri PM.", "meaning": "Ayo ketemu jam 3 sore." },
-        { "id": "k14", "english": "The boss approved it.", "pronunciation": "De bos epruvd it.", "meaning": "Atasan menyetujuinya." },
-        { "id": "k15", "english": "I'm taking a day off.", "pronunciation": "Aim teiking e dei of.", "meaning": "Aku ambil cuti hari ini." },
-        { "id": "k16", "english": "Good job!", "pronunciation": "Gud job!", "meaning": "Kerja bagus!" },
-        { "id": "k17", "english": "Can you cover for me?", "pronunciation": "Ken yu kaver for mi?", "meaning": "Bisa menggantikanku?" },
-        { "id": "k18", "english": "I'll be late today.", "pronunciation": "Ail bi leit tudei.", "meaning": "Aku akan terlambat hari ini." },
-        { "id": "k19", "english": "Submit before Friday.", "pronunciation": "Sabmit bifor Fraidei.", "meaning": "Kumpulkan sebelum Jumat." },
-        { "id": "k20", "english": "Let's wrap up.", "pronunciation": "Lets rep ap.", "meaning": "Ayo kita selesaikan." }
+        {
+          "id": "k1",
+          "english": "I have a meeting.",
+          "pronunciation": "Ai hev e miting.",
+          "meaning": "Aku ada rapat."
+        },
+        {
+          "id": "k2",
+          "english": "Send me the report.",
+          "pronunciation": "Sen mi de report.",
+          "meaning": "Kirimkan laporannya ke aku."
+        },
+        {
+          "id": "k3",
+          "english": "I'm working from home.",
+          "pronunciation": "Aim werking from houm.",
+          "meaning": "Aku kerja dari rumah."
+        },
+        {
+          "id": "k4",
+          "english": "Can we reschedule?",
+          "pronunciation": "Ken wi riskejul?",
+          "meaning": "Bisa kita jadwal ulang?"
+        },
+        {
+          "id": "k5",
+          "english": "I'm on a deadline.",
+          "pronunciation": "Aim on e dedlain.",
+          "meaning": "Aku sedang kejar deadline."
+        },
+        {
+          "id": "k6",
+          "english": "Please check your email.",
+          "pronunciation": "Pliz cek yor imeil.",
+          "meaning": "Tolong cek emailmu."
+        },
+        {
+          "id": "k7",
+          "english": "The project is done.",
+          "pronunciation": "De projekt is dan.",
+          "meaning": "Proyeknya sudah selesai."
+        },
+        {
+          "id": "k8",
+          "english": "I need your signature.",
+          "pronunciation": "Ai nid yor signecer.",
+          "meaning": "Aku butuh tanda tanganmu."
+        },
+        {
+          "id": "k9",
+          "english": "Join the conference call.",
+          "pronunciation": "Join de konferens kol.",
+          "meaning": "Ikuti panggilan konferens."
+        },
+        {
+          "id": "k10",
+          "english": "You're on mute.",
+          "pronunciation": "Yor on myut.",
+          "meaning": "Kamu dalam mode mute."
+        },
+        {
+          "id": "k11",
+          "english": "Share your screen.",
+          "pronunciation": "Syer yor skrin.",
+          "meaning": "Bagikan layarmu."
+        },
+        {
+          "id": "k12",
+          "english": "I'll handle it.",
+          "pronunciation": "Ail hendel it.",
+          "meaning": "Biar aku yang urus."
+        },
+        {
+          "id": "k13",
+          "english": "Let's meet at 3 PM.",
+          "pronunciation": "Lets mit et thri PM.",
+          "meaning": "Ayo ketemu jam 3 sore."
+        },
+        {
+          "id": "k14",
+          "english": "The boss approved it.",
+          "pronunciation": "De bos epruvd it.",
+          "meaning": "Atasan menyetujuinya."
+        },
+        {
+          "id": "k15",
+          "english": "I'm taking a day off.",
+          "pronunciation": "Aim teiking e dei of.",
+          "meaning": "Aku ambil cuti hari ini."
+        },
+        {
+          "id": "k16",
+          "english": "Good job!",
+          "pronunciation": "Gud job!",
+          "meaning": "Kerja bagus!"
+        },
+        {
+          "id": "k17",
+          "english": "Can you cover for me?",
+          "pronunciation": "Ken yu kaver for mi?",
+          "meaning": "Bisa menggantikanku?"
+        },
+        {
+          "id": "k18",
+          "english": "I'll be late today.",
+          "pronunciation": "Ail bi leit tudei.",
+          "meaning": "Aku akan terlambat hari ini."
+        },
+        {
+          "id": "k19",
+          "english": "Submit before Friday.",
+          "pronunciation": "Sabmit bifor Fraidei.",
+          "meaning": "Kumpulkan sebelum Jumat."
+        },
+        {
+          "id": "k20",
+          "english": "Let's wrap up.",
+          "pronunciation": "Lets rep ap.",
+          "meaning": "Ayo kita selesaikan."
+        },
+        {
+          "id": "k21",
+          "english": "I got a promotion!",
+          "pronunciation": "Ai got e promousyen!",
+          "meaning": "Aku dapat promosi!"
+        },
+        {
+          "id": "k22",
+          "english": "We need to hire someone.",
+          "pronunciation": "Wi nid tu haier samwan.",
+          "meaning": "Kita perlu mempekerjakan seseorang."
+        },
+        {
+          "id": "k23",
+          "english": "I'm looking for a new job.",
+          "pronunciation": "Aim luking for e nyu job.",
+          "meaning": "Aku sedang mencari pekerjaan baru."
+        },
+        {
+          "id": "k24",
+          "english": "What's the salary range?",
+          "pronunciation": "Wots de seleri reinj?",
+          "meaning": "Berapa kisaran gajinya?"
+        },
+        {
+          "id": "k25",
+          "english": "I have an interview tomorrow.",
+          "pronunciation": "Ai hev en intervyu tumorou.",
+          "meaning": "Aku ada wawancara besok."
+        },
+        {
+          "id": "k26",
+          "english": "Please review the document.",
+          "pronunciation": "Pliz rivyu de dokyument.",
+          "meaning": "Tolong tinjau dokumennya."
+        },
+        {
+          "id": "k27",
+          "english": "The meeting is postponed.",
+          "pronunciation": "De miting is poustpound.",
+          "meaning": "Rapatnya ditunda."
+        },
+        {
+          "id": "k28",
+          "english": "I'll prepare the slides.",
+          "pronunciation": "Ail priper de slaidz.",
+          "meaning": "Aku siapkan slide-nya."
+        },
+        {
+          "id": "k29",
+          "english": "Who is leading this project?",
+          "pronunciation": "Hu is liding dis projekt?",
+          "meaning": "Siapa yang memimpin proyek ini?"
+        },
+        {
+          "id": "k30",
+          "english": "Let's brainstorm ideas.",
+          "pronunciation": "Lets breinstorm aidiez.",
+          "meaning": "Ayo curah pendapat."
+        },
+        {
+          "id": "k31",
+          "english": "I need more time.",
+          "pronunciation": "Ai nid mor taim.",
+          "meaning": "Aku butuh lebih banyak waktu."
+        },
+        {
+          "id": "k32",
+          "english": "The client is satisfied.",
+          "pronunciation": "De klaient is setisfaid.",
+          "meaning": "Kliennya puas."
+        },
+        {
+          "id": "k33",
+          "english": "Forward me the email.",
+          "pronunciation": "Forwerd mi de imeil.",
+          "meaning": "Teruskan emailnya ke aku."
+        },
+        {
+          "id": "k34",
+          "english": "I'm resigning next month.",
+          "pronunciation": "Aim risaining nekst manth.",
+          "meaning": "Aku mengundurkan diri bulan depan."
+        },
+        {
+          "id": "k35",
+          "english": "We exceeded our target!",
+          "pronunciation": "Wi iksided aur target!",
+          "meaning": "Kita melampaui target!"
+        },
+        {
+          "id": "k36",
+          "english": "Fill in the timesheet.",
+          "pronunciation": "Fil in de taimsyit.",
+          "meaning": "Isi lembar waktu kerjanya."
+        },
+        {
+          "id": "k37",
+          "english": "The intern is doing great.",
+          "pronunciation": "De intern is duing greit.",
+          "meaning": "Anak magangnya bagus sekali."
+        },
+        {
+          "id": "k38",
+          "english": "What's the budget for this?",
+          "pronunciation": "Wots de bajet for dis?",
+          "meaning": "Berapa anggarannya untuk ini?"
+        },
+        {
+          "id": "k39",
+          "english": "I'll follow up on that.",
+          "pronunciation": "Ail folou ap on det.",
+          "meaning": "Aku akan menindaklanjuti itu."
+        },
+        {
+          "id": "k40",
+          "english": "We need to cut costs.",
+          "pronunciation": "Wi nid tu kat kosts.",
+          "meaning": "Kita perlu memangkas biaya."
+        },
+        {
+          "id": "k41",
+          "english": "Schedule a one-on-one.",
+          "pronunciation": "Skejul e wan-on-wan.",
+          "meaning": "Jadwalkan pertemuan tatap muka."
+        },
+        {
+          "id": "k42",
+          "english": "I disagree with that approach.",
+          "pronunciation": "Ai disagri wid det oprouc.",
+          "meaning": "Aku tidak setuju dengan pendekatan itu."
+        },
+        {
+          "id": "k43",
+          "english": "The presentation went well.",
+          "pronunciation": "De prezenteisyen went wel.",
+          "meaning": "Presentasinya berjalan baik."
+        },
+        {
+          "id": "k44",
+          "english": "I'm swamped with work.",
+          "pronunciation": "Aim swompt wid werk.",
+          "meaning": "Aku tenggelam dalam pekerjaan."
+        },
+        {
+          "id": "k45",
+          "english": "Please prioritize this task.",
+          "pronunciation": "Pliz praiorataiz dis task.",
+          "meaning": "Tolong prioritaskan tugas ini."
+        },
+        {
+          "id": "k46",
+          "english": "Great teamwork everyone!",
+          "pronunciation": "Greit timwerk evrivan!",
+          "meaning": "Kerja tim yang hebat semuanya!"
+        },
+        {
+          "id": "k47",
+          "english": "I have a conflict at that time.",
+          "pronunciation": "Ai hev e konflikt et det taim.",
+          "meaning": "Aku ada jadwal bentrok di waktu itu."
+        },
+        {
+          "id": "k48",
+          "english": "Let's take a coffee break.",
+          "pronunciation": "Lets teik e kofi breik.",
+          "meaning": "Ayo istirahat ngopi."
+        },
+        {
+          "id": "k49",
+          "english": "The contract is ready to sign.",
+          "pronunciation": "De kontrekt is redi tu sain.",
+          "meaning": "Kontraknya siap ditandatangani."
+        },
+        {
+          "id": "k50",
+          "english": "Happy retirement!",
+          "pronunciation": "Hepi ritaierment!",
+          "meaning": "Selamat pensiun!"
+        }
       ]
     },
     {
@@ -146,26 +1546,306 @@
       "icon": "🛍️",
       "color": "#EC4899",
       "words": [
-        { "id": "b1", "english": "How much is this?", "pronunciation": "Hau mac is dis?", "meaning": "Berapa harga ini?" },
-        { "id": "b2", "english": "Do you have a discount?", "pronunciation": "Du yu hev e diskount?", "meaning": "Ada diskon?" },
-        { "id": "b3", "english": "Can I try this on?", "pronunciation": "Ken ai trai dis on?", "meaning": "Boleh aku coba ini?" },
-        { "id": "b4", "english": "I'll take it.", "pronunciation": "Ail teik it.", "meaning": "Aku ambil ini." },
-        { "id": "b5", "english": "Do you accept credit card?", "pronunciation": "Du yu eksept kredit kard?", "meaning": "Terima kartu kredit?" },
-        { "id": "b6", "english": "I want a refund.", "pronunciation": "Ai wont e rifand.", "meaning": "Aku mau refund." },
-        { "id": "b7", "english": "This is too expensive.", "pronunciation": "Dis is tu ekspensiv.", "meaning": "Ini terlalu mahal." },
-        { "id": "b8", "english": "Can you gift wrap it?", "pronunciation": "Ken yu gift rep it?", "meaning": "Bisa dibungkus kado?" },
-        { "id": "b9", "english": "I'm just browsing.", "pronunciation": "Aim just brauzing.", "meaning": "Aku cuma lihat-lihat." },
-        { "id": "b10", "english": "Do you have this in black?", "pronunciation": "Du yu hev dis in blek?", "meaning": "Ada warna hitamnya?" },
-        { "id": "b11", "english": "What size is this?", "pronunciation": "Wot saiz is dis?", "meaning": "Ukuran berapa ini?" },
-        { "id": "b12", "english": "Keep the change.", "pronunciation": "Kip de cheinj.", "meaning": "Kembaliannya tidak usah." },
-        { "id": "b13", "english": "I need a receipt.", "pronunciation": "Ai nid e risit.", "meaning": "Aku butuh struk." },
-        { "id": "b14", "english": "Is this on sale?", "pronunciation": "Is dis on seil?", "meaning": "Ini sedang diskon?" },
-        { "id": "b15", "english": "Out of stock.", "pronunciation": "Aut of stok.", "meaning": "Stok habis." },
-        { "id": "b16", "english": "Free shipping.", "pronunciation": "Fri shipping.", "meaning": "Gratis ongkos kirim." },
-        { "id": "b17", "english": "Can I exchange this?", "pronunciation": "Ken ai iksreinj dis?", "meaning": "Bisa ditukar?" },
-        { "id": "b18", "english": "Pay at the counter.", "pronunciation": "Pei et de kaunter.", "meaning": "Bayar di kasir." },
-        { "id": "b19", "english": "Add to cart.", "pronunciation": "Ed tu kart.", "meaning": "Tambahkan ke keranjang." },
-        { "id": "b20", "english": "Flash sale today!", "pronunciation": "Fles seil tudei!", "meaning": "Flash sale hari ini!" }
+        {
+          "id": "b1",
+          "english": "How much is this?",
+          "pronunciation": "Hau mac is dis?",
+          "meaning": "Berapa harga ini?"
+        },
+        {
+          "id": "b2",
+          "english": "Do you have a discount?",
+          "pronunciation": "Du yu hev e diskount?",
+          "meaning": "Ada diskon?"
+        },
+        {
+          "id": "b3",
+          "english": "Can I try this on?",
+          "pronunciation": "Ken ai trai dis on?",
+          "meaning": "Boleh aku coba ini?"
+        },
+        {
+          "id": "b4",
+          "english": "I'll take it.",
+          "pronunciation": "Ail teik it.",
+          "meaning": "Aku ambil ini."
+        },
+        {
+          "id": "b5",
+          "english": "Do you accept credit card?",
+          "pronunciation": "Du yu eksept kredit kard?",
+          "meaning": "Terima kartu kredit?"
+        },
+        {
+          "id": "b6",
+          "english": "I want a refund.",
+          "pronunciation": "Ai wont e rifand.",
+          "meaning": "Aku mau refund."
+        },
+        {
+          "id": "b7",
+          "english": "This is too expensive.",
+          "pronunciation": "Dis is tu ekspensiv.",
+          "meaning": "Ini terlalu mahal."
+        },
+        {
+          "id": "b8",
+          "english": "Can you gift wrap it?",
+          "pronunciation": "Ken yu gift rep it?",
+          "meaning": "Bisa dibungkus kado?"
+        },
+        {
+          "id": "b9",
+          "english": "I'm just browsing.",
+          "pronunciation": "Aim just brauzing.",
+          "meaning": "Aku cuma lihat-lihat."
+        },
+        {
+          "id": "b10",
+          "english": "Do you have this in black?",
+          "pronunciation": "Du yu hev dis in blek?",
+          "meaning": "Ada warna hitamnya?"
+        },
+        {
+          "id": "b11",
+          "english": "What size is this?",
+          "pronunciation": "Wot saiz is dis?",
+          "meaning": "Ukuran berapa ini?"
+        },
+        {
+          "id": "b12",
+          "english": "Keep the change.",
+          "pronunciation": "Kip de cheinj.",
+          "meaning": "Kembaliannya tidak usah."
+        },
+        {
+          "id": "b13",
+          "english": "I need a receipt.",
+          "pronunciation": "Ai nid e risit.",
+          "meaning": "Aku butuh struk."
+        },
+        {
+          "id": "b14",
+          "english": "Is this on sale?",
+          "pronunciation": "Is dis on seil?",
+          "meaning": "Ini sedang diskon?"
+        },
+        {
+          "id": "b15",
+          "english": "Out of stock.",
+          "pronunciation": "Aut of stok.",
+          "meaning": "Stok habis."
+        },
+        {
+          "id": "b16",
+          "english": "Free shipping.",
+          "pronunciation": "Fri shipping.",
+          "meaning": "Gratis ongkos kirim."
+        },
+        {
+          "id": "b17",
+          "english": "Can I exchange this?",
+          "pronunciation": "Ken ai iksreinj dis?",
+          "meaning": "Bisa ditukar?"
+        },
+        {
+          "id": "b18",
+          "english": "Pay at the counter.",
+          "pronunciation": "Pei et de kaunter.",
+          "meaning": "Bayar di kasir."
+        },
+        {
+          "id": "b19",
+          "english": "Add to cart.",
+          "pronunciation": "Ed tu kart.",
+          "meaning": "Tambahkan ke keranjang."
+        },
+        {
+          "id": "b20",
+          "english": "Flash sale today!",
+          "pronunciation": "Fles seil tudei!",
+          "meaning": "Flash sale hari ini!"
+        },
+        {
+          "id": "b21",
+          "english": "Where is the fitting room?",
+          "pronunciation": "Wer is de fiting rum?",
+          "meaning": "Di mana ruang ganti?"
+        },
+        {
+          "id": "b22",
+          "english": "Do you have a bigger size?",
+          "pronunciation": "Du yu hev e biger saiz?",
+          "meaning": "Ada ukuran yang lebih besar?"
+        },
+        {
+          "id": "b23",
+          "english": "This doesn't fit me.",
+          "pronunciation": "Dis dasent fit mi.",
+          "meaning": "Ini tidak muat untukku."
+        },
+        {
+          "id": "b24",
+          "english": "I need a shopping bag.",
+          "pronunciation": "Ai nid e syoping beg.",
+          "meaning": "Aku butuh tas belanja."
+        },
+        {
+          "id": "b25",
+          "english": "Where is the cashier?",
+          "pronunciation": "Wer is de kesyir?",
+          "meaning": "Di mana kasirnya?"
+        },
+        {
+          "id": "b26",
+          "english": "Can I pay in installments?",
+          "pronunciation": "Ken ai pei in instolments?",
+          "meaning": "Bisa bayar cicilan?"
+        },
+        {
+          "id": "b27",
+          "english": "Is there a warranty?",
+          "pronunciation": "Is der e worenti?",
+          "meaning": "Ada garansinya?"
+        },
+        {
+          "id": "b28",
+          "english": "I want to return this.",
+          "pronunciation": "Ai wont tu ritern dis.",
+          "meaning": "Aku mau mengembalikan ini."
+        },
+        {
+          "id": "b29",
+          "english": "Do you have the latest model?",
+          "pronunciation": "Du yu hev de leitest model?",
+          "meaning": "Ada model terbarunya?"
+        },
+        {
+          "id": "b30",
+          "english": "When does the sale end?",
+          "pronunciation": "Wen daz de seil end?",
+          "meaning": "Kapan diskonnya berakhir?"
+        },
+        {
+          "id": "b31",
+          "english": "Is this the original price?",
+          "pronunciation": "Is dis de orijinal prais?",
+          "meaning": "Apakah ini harga aslinya?"
+        },
+        {
+          "id": "b32",
+          "english": "I'll pay with cash.",
+          "pronunciation": "Ail pei wid kesy.",
+          "meaning": "Aku bayar tunai."
+        },
+        {
+          "id": "b33",
+          "english": "Do you have this in red?",
+          "pronunciation": "Du yu hev dis in red?",
+          "meaning": "Ada warna merahnya?"
+        },
+        {
+          "id": "b34",
+          "english": "Buy one get one free.",
+          "pronunciation": "Bai wan get wan fri.",
+          "meaning": "Beli satu gratis satu."
+        },
+        {
+          "id": "b35",
+          "english": "Where is the electronics section?",
+          "pronunciation": "Wer is de ilektroniks seksyen?",
+          "meaning": "Di mana bagian elektronik?"
+        },
+        {
+          "id": "b36",
+          "english": "I'd like to compare prices.",
+          "pronunciation": "Aid laik tu komper praisez.",
+          "meaning": "Aku ingin membandingkan harga."
+        },
+        {
+          "id": "b37",
+          "english": "Is this made locally?",
+          "pronunciation": "Is dis meid loukeli?",
+          "meaning": "Apakah ini buatan lokal?"
+        },
+        {
+          "id": "b38",
+          "english": "Can I get a loyalty card?",
+          "pronunciation": "Ken ai get e loielti kard?",
+          "meaning": "Bisa dapat kartu member?"
+        },
+        {
+          "id": "b39",
+          "english": "The queue is very long.",
+          "pronunciation": "De kyu is veri long.",
+          "meaning": "Antriannya sangat panjang."
+        },
+        {
+          "id": "b40",
+          "english": "Apply the promo code.",
+          "pronunciation": "Eplai de promo koud.",
+          "meaning": "Pakai kode promonya."
+        },
+        {
+          "id": "b41",
+          "english": "I'm looking for a gift.",
+          "pronunciation": "Aim luking for e gift.",
+          "meaning": "Aku sedang mencari hadiah."
+        },
+        {
+          "id": "b42",
+          "english": "Do you offer free returns?",
+          "pronunciation": "Du yu ofer fri riterns?",
+          "meaning": "Apakah ada pengembalian gratis?"
+        },
+        {
+          "id": "b43",
+          "english": "This brand is popular.",
+          "pronunciation": "Dis brend is popyuler.",
+          "meaning": "Merek ini populer."
+        },
+        {
+          "id": "b44",
+          "english": "What's your return policy?",
+          "pronunciation": "Wots yor ritern polisi?",
+          "meaning": "Apa kebijakan pengembalian kalian?"
+        },
+        {
+          "id": "b45",
+          "english": "Scan the barcode.",
+          "pronunciation": "Sken de barkoud.",
+          "meaning": "Scan barkodenya."
+        },
+        {
+          "id": "b46",
+          "english": "Do you price match?",
+          "pronunciation": "Du yu prais mec?",
+          "meaning": "Apakah kalian cocokkan harga?"
+        },
+        {
+          "id": "b47",
+          "english": "I'd like to pre-order.",
+          "pronunciation": "Aid laik tu pri-order.",
+          "meaning": "Saya ingin pre-order."
+        },
+        {
+          "id": "b48",
+          "english": "The delivery arrived damaged.",
+          "pronunciation": "De deliveri eraivd demejd.",
+          "meaning": "Pengirimannya tiba rusak."
+        },
+        {
+          "id": "b49",
+          "english": "Add a gift card.",
+          "pronunciation": "Ed e gift kard.",
+          "meaning": "Tambahkan kartu hadiah."
+        },
+        {
+          "id": "b50",
+          "english": "Check out with PayPal.",
+          "pronunciation": "Cek aut wid Peipal.",
+          "meaning": "Bayar dengan PayPal."
+        }
       ]
     },
     {
@@ -174,26 +1854,306 @@
       "icon": "🏥",
       "color": "#14B8A6",
       "words": [
-        { "id": "h1", "english": "I don't feel well.", "pronunciation": "Ai dount fil wel.", "meaning": "Aku tidak merasa baik." },
-        { "id": "h2", "english": "Call an ambulance!", "pronunciation": "Kol en embyulens!", "meaning": "Panggil ambulans!" },
-        { "id": "h3", "english": "I have a headache.", "pronunciation": "Ai hev e hedek.", "meaning": "Aku sakit kepala." },
-        { "id": "h4", "english": "I need a doctor.", "pronunciation": "Ai nid e dokter.", "meaning": "Aku butuh dokter." },
-        { "id": "h5", "english": "Where is the hospital?", "pronunciation": "Wer is de hospital?", "meaning": "Di mana rumah sakitnya?" },
-        { "id": "h6", "english": "I have a fever.", "pronunciation": "Ai hev e fiver.", "meaning": "Aku demam." },
-        { "id": "h7", "english": "Do you have painkillers?", "pronunciation": "Du yu hev peinkilers?", "meaning": "Ada obat pereda nyeri?" },
-        { "id": "h8", "english": "I'm having chest pain.", "pronunciation": "Aim heving cest pein.", "meaning": "Aku merasakan nyeri dada." },
-        { "id": "h9", "english": "Help me!", "pronunciation": "Help mi!", "meaning": "Tolong aku!" },
-        { "id": "h10", "english": "I need my medicine.", "pronunciation": "Ai nid mai medisin.", "meaning": "Aku butuh obatku." },
-        { "id": "h11", "english": "I'm bleeding.", "pronunciation": "Aim blidng.", "meaning": "Aku berdarah." },
-        { "id": "h12", "english": "I'm feeling dizzy.", "pronunciation": "Aim filing dizi.", "meaning": "Aku merasa pusing." },
-        { "id": "h13", "english": "Take this twice a day.", "pronunciation": "Teik dis twais e dei.", "meaning": "Minum ini dua kali sehari." },
-        { "id": "h14", "english": "I'm allergic to penicillin.", "pronunciation": "Aim alerjik tu penisilin.", "meaning": "Aku alergi penisilin." },
-        { "id": "h15", "english": "Get some rest.", "pronunciation": "Get sam rest.", "meaning": "Istirahat yang cukup." },
-        { "id": "h16", "english": "Drink more water.", "pronunciation": "Drink mor woter.", "meaning": "Minum lebih banyak air." },
-        { "id": "h17", "english": "My stomach hurts.", "pronunciation": "Mai stamek herts.", "meaning": "Perutku sakit." },
-        { "id": "h18", "english": "I twisted my ankle.", "pronunciation": "Ai twisted mai enkl.", "meaning": "Kakiku terkilir." },
-        { "id": "h19", "english": "I need stitches.", "pronunciation": "Ai nid stiches.", "meaning": "Aku butuh jahitan." },
-        { "id": "h20", "english": "Stay calm.", "pronunciation": "Stei kalm.", "meaning": "Tetap tenang." }
+        {
+          "id": "h1",
+          "english": "I don't feel well.",
+          "pronunciation": "Ai dount fil wel.",
+          "meaning": "Aku tidak merasa baik."
+        },
+        {
+          "id": "h2",
+          "english": "Call an ambulance!",
+          "pronunciation": "Kol en embyulens!",
+          "meaning": "Panggil ambulans!"
+        },
+        {
+          "id": "h3",
+          "english": "I have a headache.",
+          "pronunciation": "Ai hev e hedek.",
+          "meaning": "Aku sakit kepala."
+        },
+        {
+          "id": "h4",
+          "english": "I need a doctor.",
+          "pronunciation": "Ai nid e dokter.",
+          "meaning": "Aku butuh dokter."
+        },
+        {
+          "id": "h5",
+          "english": "Where is the hospital?",
+          "pronunciation": "Wer is de hospital?",
+          "meaning": "Di mana rumah sakitnya?"
+        },
+        {
+          "id": "h6",
+          "english": "I have a fever.",
+          "pronunciation": "Ai hev e fiver.",
+          "meaning": "Aku demam."
+        },
+        {
+          "id": "h7",
+          "english": "Do you have painkillers?",
+          "pronunciation": "Du yu hev peinkilers?",
+          "meaning": "Ada obat pereda nyeri?"
+        },
+        {
+          "id": "h8",
+          "english": "I'm having chest pain.",
+          "pronunciation": "Aim heving cest pein.",
+          "meaning": "Aku merasakan nyeri dada."
+        },
+        {
+          "id": "h9",
+          "english": "Help me!",
+          "pronunciation": "Help mi!",
+          "meaning": "Tolong aku!"
+        },
+        {
+          "id": "h10",
+          "english": "I need my medicine.",
+          "pronunciation": "Ai nid mai medisin.",
+          "meaning": "Aku butuh obatku."
+        },
+        {
+          "id": "h11",
+          "english": "I'm bleeding.",
+          "pronunciation": "Aim blidng.",
+          "meaning": "Aku berdarah."
+        },
+        {
+          "id": "h12",
+          "english": "I'm feeling dizzy.",
+          "pronunciation": "Aim filing dizi.",
+          "meaning": "Aku merasa pusing."
+        },
+        {
+          "id": "h13",
+          "english": "Take this twice a day.",
+          "pronunciation": "Teik dis twais e dei.",
+          "meaning": "Minum ini dua kali sehari."
+        },
+        {
+          "id": "h14",
+          "english": "I'm allergic to penicillin.",
+          "pronunciation": "Aim alerjik tu penisilin.",
+          "meaning": "Aku alergi penisilin."
+        },
+        {
+          "id": "h15",
+          "english": "Get some rest.",
+          "pronunciation": "Get sam rest.",
+          "meaning": "Istirahat yang cukup."
+        },
+        {
+          "id": "h16",
+          "english": "Drink more water.",
+          "pronunciation": "Drink mor woter.",
+          "meaning": "Minum lebih banyak air."
+        },
+        {
+          "id": "h17",
+          "english": "My stomach hurts.",
+          "pronunciation": "Mai stamek herts.",
+          "meaning": "Perutku sakit."
+        },
+        {
+          "id": "h18",
+          "english": "I twisted my ankle.",
+          "pronunciation": "Ai twisted mai enkl.",
+          "meaning": "Kakiku terkilir."
+        },
+        {
+          "id": "h19",
+          "english": "I need stitches.",
+          "pronunciation": "Ai nid stiches.",
+          "meaning": "Aku butuh jahitan."
+        },
+        {
+          "id": "h20",
+          "english": "Stay calm.",
+          "pronunciation": "Stei kalm.",
+          "meaning": "Tetap tenang."
+        },
+        {
+          "id": "h21",
+          "english": "I have a sore throat.",
+          "pronunciation": "Ai hev e sor trout.",
+          "meaning": "Tenggorokanku sakit."
+        },
+        {
+          "id": "h22",
+          "english": "I'm having trouble breathing.",
+          "pronunciation": "Aim heving trabul briding.",
+          "meaning": "Aku kesulitan bernapas."
+        },
+        {
+          "id": "h23",
+          "english": "Where is the pharmacy?",
+          "pronunciation": "Wer is de farmasi?",
+          "meaning": "Di mana apoteknya?"
+        },
+        {
+          "id": "h24",
+          "english": "I need to see a dentist.",
+          "pronunciation": "Ai nid tu si e dentist.",
+          "meaning": "Aku perlu ke dokter gigi."
+        },
+        {
+          "id": "h25",
+          "english": "I have a runny nose.",
+          "pronunciation": "Ai hev e rani nouz.",
+          "meaning": "Hidungku meler."
+        },
+        {
+          "id": "h26",
+          "english": "My back is killing me.",
+          "pronunciation": "Mai bek is kiling mi.",
+          "meaning": "Punggungku sakit sekali."
+        },
+        {
+          "id": "h27",
+          "english": "I need a bandage.",
+          "pronunciation": "Ai nid e bendej.",
+          "meaning": "Aku butuh perban."
+        },
+        {
+          "id": "h28",
+          "english": "I have food poisoning.",
+          "pronunciation": "Ai hev fud poizening.",
+          "meaning": "Aku keracunan makanan."
+        },
+        {
+          "id": "h29",
+          "english": "Is it contagious?",
+          "pronunciation": "Is it kenteijes?",
+          "meaning": "Apakah menular?"
+        },
+        {
+          "id": "h30",
+          "english": "I need a prescription.",
+          "pronunciation": "Ai nid e preskripyen.",
+          "meaning": "Aku butuh resep dokter."
+        },
+        {
+          "id": "h31",
+          "english": "The wound is infected.",
+          "pronunciation": "De wund is infektid.",
+          "meaning": "Lukanya terinfeksi."
+        },
+        {
+          "id": "h32",
+          "english": "I have high blood pressure.",
+          "pronunciation": "Ai hev hai blad presyer.",
+          "meaning": "Aku punya tekanan darah tinggi."
+        },
+        {
+          "id": "h33",
+          "english": "I feel nauseous.",
+          "pronunciation": "Ai fil nosyes.",
+          "meaning": "Aku merasa mual."
+        },
+        {
+          "id": "h34",
+          "english": "I can't sleep at night.",
+          "pronunciation": "Ai kent slip et nait.",
+          "meaning": "Aku tidak bisa tidur malam."
+        },
+        {
+          "id": "h35",
+          "english": "I broke my arm.",
+          "pronunciation": "Ai brouk mai arm.",
+          "meaning": "Tanganku patah."
+        },
+        {
+          "id": "h36",
+          "english": "I need a blood test.",
+          "pronunciation": "Ai nid e blad test.",
+          "meaning": "Aku butuh tes darah."
+        },
+        {
+          "id": "h37",
+          "english": "My vision is blurry.",
+          "pronunciation": "Mai vizyen is bleri.",
+          "meaning": "Penglihatanku kabur."
+        },
+        {
+          "id": "h38",
+          "english": "I have a rash on my skin.",
+          "pronunciation": "Ai hev e resy on mai skin.",
+          "meaning": "Kulitku ruam."
+        },
+        {
+          "id": "h39",
+          "english": "Schedule a checkup.",
+          "pronunciation": "Skejul e cekap.",
+          "meaning": "Jadwalkan pemeriksaan."
+        },
+        {
+          "id": "h40",
+          "english": "Are there any side effects?",
+          "pronunciation": "Ar der eni said ifekts?",
+          "meaning": "Apakah ada efek samping?"
+        },
+        {
+          "id": "h41",
+          "english": "I'm feeling much better.",
+          "pronunciation": "Aim filing mac beter.",
+          "meaning": "Aku merasa jauh lebih baik."
+        },
+        {
+          "id": "h42",
+          "english": "I need an X-ray.",
+          "pronunciation": "Ai nid en eks-rei.",
+          "meaning": "Aku butuh rontgen."
+        },
+        {
+          "id": "h43",
+          "english": "Wash your hands frequently.",
+          "pronunciation": "Wosy yor hends frikwently.",
+          "meaning": "Cuci tangan sering-sering."
+        },
+        {
+          "id": "h44",
+          "english": "Wear a face mask.",
+          "pronunciation": "Wer e feis mask.",
+          "meaning": "Pakai masker wajah."
+        },
+        {
+          "id": "h45",
+          "english": "I have diabetes.",
+          "pronunciation": "Ai hev daiebetis.",
+          "meaning": "Aku punya diabetes."
+        },
+        {
+          "id": "h46",
+          "english": "Keep the wound clean.",
+          "pronunciation": "Kip de wund klin.",
+          "meaning": "Jaga luka tetap bersih."
+        },
+        {
+          "id": "h47",
+          "english": "I need to get vaccinated.",
+          "pronunciation": "Ai nid tu get veksineitid.",
+          "meaning": "Aku perlu divaksin."
+        },
+        {
+          "id": "h48",
+          "english": "My tooth is aching.",
+          "pronunciation": "Mai tut is eiking.",
+          "meaning": "Gigiku sakit."
+        },
+        {
+          "id": "h49",
+          "english": "I'm recovering slowly.",
+          "pronunciation": "Aim rikavering slouli.",
+          "meaning": "Aku pulih perlahan."
+        },
+        {
+          "id": "h50",
+          "english": "Take a deep breath.",
+          "pronunciation": "Teik e dip bret.",
+          "meaning": "Tarik napas dalam-dalam."
+        }
       ]
     },
     {
@@ -202,26 +2162,306 @@
       "icon": "💬",
       "color": "#F97316",
       "words": [
-        { "id": "f1", "english": "I'm so happy!", "pronunciation": "Aim sou hepi!", "meaning": "Aku sangat bahagia!" },
-        { "id": "f2", "english": "I'm really tired.", "pronunciation": "Aim rily taird.", "meaning": "Aku benar-benar lelah." },
-        { "id": "f3", "english": "That's amazing!", "pronunciation": "Dets emezing!", "meaning": "Itu luar biasa!" },
-        { "id": "f4", "english": "I'm nervous.", "pronunciation": "Aim nerves.", "meaning": "Aku gugup." },
-        { "id": "f5", "english": "I'm bored.", "pronunciation": "Aim bord.", "meaning": "Aku bosan." },
-        { "id": "f6", "english": "I'm proud of you.", "pronunciation": "Aim praud of yu.", "meaning": "Aku bangga padamu." },
-        { "id": "f7", "english": "I'm so angry!", "pronunciation": "Aim sou engri!", "meaning": "Aku sangat marah!" },
-        { "id": "f8", "english": "I'm disappointed.", "pronunciation": "Aim disepointid.", "meaning": "Aku kecewa." },
-        { "id": "f9", "english": "That's so funny!", "pronunciation": "Dets sou fani!", "meaning": "Itu sangat lucu!" },
-        { "id": "f10", "english": "I'm scared.", "pronunciation": "Aim skerd.", "meaning": "Aku takut." },
-        { "id": "f11", "english": "I can't believe it!", "pronunciation": "Ai kent biliv it!", "meaning": "Aku tidak percaya!" },
-        { "id": "f12", "english": "I feel lonely.", "pronunciation": "Ai fil lounli.", "meaning": "Aku merasa kesepian." },
-        { "id": "f13", "english": "You made my day!", "pronunciation": "Yu meid mai dei!", "meaning": "Kamu membuat hariku menyenangkan!" },
-        { "id": "f14", "english": "I'm overwhelmed.", "pronunciation": "Aim ouverwelmd.", "meaning": "Aku kewalahan." },
-        { "id": "f15", "english": "I'm grateful.", "pronunciation": "Aim greitful.", "meaning": "Aku bersyukur." },
-        { "id": "f16", "english": "That hurts.", "pronunciation": "Det herts.", "meaning": "Itu menyakitkan." },
-        { "id": "f17", "english": "I'm confused.", "pronunciation": "Aim kenfyuzd.", "meaning": "Aku bingung." },
-        { "id": "f18", "english": "I feel hopeful.", "pronunciation": "Ai fil houpful.", "meaning": "Aku merasa penuh harapan." },
-        { "id": "f19", "english": "I'm embarrassed.", "pronunciation": "Aim imerast.", "meaning": "Aku malu." },
-        { "id": "f20", "english": "I love this!", "pronunciation": "Ai lav dis!", "meaning": "Aku suka ini!" }
+        {
+          "id": "f1",
+          "english": "I'm so happy!",
+          "pronunciation": "Aim sou hepi!",
+          "meaning": "Aku sangat bahagia!"
+        },
+        {
+          "id": "f2",
+          "english": "I'm really tired.",
+          "pronunciation": "Aim rily taird.",
+          "meaning": "Aku benar-benar lelah."
+        },
+        {
+          "id": "f3",
+          "english": "That's amazing!",
+          "pronunciation": "Dets emezing!",
+          "meaning": "Itu luar biasa!"
+        },
+        {
+          "id": "f4",
+          "english": "I'm nervous.",
+          "pronunciation": "Aim nerves.",
+          "meaning": "Aku gugup."
+        },
+        {
+          "id": "f5",
+          "english": "I'm bored.",
+          "pronunciation": "Aim bord.",
+          "meaning": "Aku bosan."
+        },
+        {
+          "id": "f6",
+          "english": "I'm proud of you.",
+          "pronunciation": "Aim praud of yu.",
+          "meaning": "Aku bangga padamu."
+        },
+        {
+          "id": "f7",
+          "english": "I'm so angry!",
+          "pronunciation": "Aim sou engri!",
+          "meaning": "Aku sangat marah!"
+        },
+        {
+          "id": "f8",
+          "english": "I'm disappointed.",
+          "pronunciation": "Aim disepointid.",
+          "meaning": "Aku kecewa."
+        },
+        {
+          "id": "f9",
+          "english": "That's so funny!",
+          "pronunciation": "Dets sou fani!",
+          "meaning": "Itu sangat lucu!"
+        },
+        {
+          "id": "f10",
+          "english": "I'm scared.",
+          "pronunciation": "Aim skerd.",
+          "meaning": "Aku takut."
+        },
+        {
+          "id": "f11",
+          "english": "I can't believe it!",
+          "pronunciation": "Ai kent biliv it!",
+          "meaning": "Aku tidak percaya!"
+        },
+        {
+          "id": "f12",
+          "english": "I feel lonely.",
+          "pronunciation": "Ai fil lounli.",
+          "meaning": "Aku merasa kesepian."
+        },
+        {
+          "id": "f13",
+          "english": "You made my day!",
+          "pronunciation": "Yu meid mai dei!",
+          "meaning": "Kamu membuat hariku menyenangkan!"
+        },
+        {
+          "id": "f14",
+          "english": "I'm overwhelmed.",
+          "pronunciation": "Aim ouverwelmd.",
+          "meaning": "Aku kewalahan."
+        },
+        {
+          "id": "f15",
+          "english": "I'm grateful.",
+          "pronunciation": "Aim greitful.",
+          "meaning": "Aku bersyukur."
+        },
+        {
+          "id": "f16",
+          "english": "That hurts.",
+          "pronunciation": "Det herts.",
+          "meaning": "Itu menyakitkan."
+        },
+        {
+          "id": "f17",
+          "english": "I'm confused.",
+          "pronunciation": "Aim kenfyuzd.",
+          "meaning": "Aku bingung."
+        },
+        {
+          "id": "f18",
+          "english": "I feel hopeful.",
+          "pronunciation": "Ai fil houpful.",
+          "meaning": "Aku merasa penuh harapan."
+        },
+        {
+          "id": "f19",
+          "english": "I'm embarrassed.",
+          "pronunciation": "Aim imerast.",
+          "meaning": "Aku malu."
+        },
+        {
+          "id": "f20",
+          "english": "I love this!",
+          "pronunciation": "Ai lav dis!",
+          "meaning": "Aku suka ini!"
+        },
+        {
+          "id": "f21",
+          "english": "I'm so stressed out.",
+          "pronunciation": "Aim sou strest aut.",
+          "meaning": "Aku sangat stres."
+        },
+        {
+          "id": "f22",
+          "english": "I feel motivated.",
+          "pronunciation": "Ai fil moutiveitid.",
+          "meaning": "Aku merasa termotivasi."
+        },
+        {
+          "id": "f23",
+          "english": "That's so annoying!",
+          "pronunciation": "Dets sou enoying!",
+          "meaning": "Itu sangat menjengkelkan!"
+        },
+        {
+          "id": "f24",
+          "english": "I'm worried about you.",
+          "pronunciation": "Aim worid ebaut yu.",
+          "meaning": "Aku khawatir tentangmu."
+        },
+        {
+          "id": "f25",
+          "english": "I feel relieved.",
+          "pronunciation": "Ai fil rilivd.",
+          "meaning": "Aku merasa lega."
+        },
+        {
+          "id": "f26",
+          "english": "I'm jealous.",
+          "pronunciation": "Aim jeles.",
+          "meaning": "Aku cemburu."
+        },
+        {
+          "id": "f27",
+          "english": "I feel inspired.",
+          "pronunciation": "Ai fil inspaird.",
+          "meaning": "Aku merasa terinspirasi."
+        },
+        {
+          "id": "f28",
+          "english": "That's heartbreaking.",
+          "pronunciation": "Dets hartbreiking.",
+          "meaning": "Itu menyedihkan sekali."
+        },
+        {
+          "id": "f29",
+          "english": "I feel anxious.",
+          "pronunciation": "Ai fil engkyes.",
+          "meaning": "Aku merasa cemas."
+        },
+        {
+          "id": "f30",
+          "english": "I'm so excited!",
+          "pronunciation": "Aim sou iksaitid!",
+          "meaning": "Aku sangat bersemangat!"
+        },
+        {
+          "id": "f31",
+          "english": "I feel peaceful.",
+          "pronunciation": "Ai fil pisful.",
+          "meaning": "Aku merasa damai."
+        },
+        {
+          "id": "f32",
+          "english": "That's frustrating.",
+          "pronunciation": "Dets frastreiing.",
+          "meaning": "Itu membuat frustrasi."
+        },
+        {
+          "id": "f33",
+          "english": "I'm homesick.",
+          "pronunciation": "Aim houmsik.",
+          "meaning": "Aku rindu rumah."
+        },
+        {
+          "id": "f34",
+          "english": "I feel appreciated.",
+          "pronunciation": "Ai fil eprisieitid.",
+          "meaning": "Aku merasa dihargai."
+        },
+        {
+          "id": "f35",
+          "english": "I'm feeling nostalgic.",
+          "pronunciation": "Aim filing nostelgik.",
+          "meaning": "Aku merasa nostalgia."
+        },
+        {
+          "id": "f36",
+          "english": "That's impressive!",
+          "pronunciation": "Dets impresiv!",
+          "meaning": "Itu mengesankan!"
+        },
+        {
+          "id": "f37",
+          "english": "I'm feeling optimistic.",
+          "pronunciation": "Aim filing optimistik.",
+          "meaning": "Aku merasa optimis."
+        },
+        {
+          "id": "f38",
+          "english": "I'm heartbroken.",
+          "pronunciation": "Aim hartbrouken.",
+          "meaning": "Hatiku hancur."
+        },
+        {
+          "id": "f39",
+          "english": "I feel energized.",
+          "pronunciation": "Ai fil enerjaisd.",
+          "meaning": "Aku merasa berenergi."
+        },
+        {
+          "id": "f40",
+          "english": "That was embarrassing.",
+          "pronunciation": "Det wos imerasing.",
+          "meaning": "Itu memalukan."
+        },
+        {
+          "id": "f41",
+          "english": "I'm content with my life.",
+          "pronunciation": "Aim kontent wid mai laif.",
+          "meaning": "Aku puas dengan hidupku."
+        },
+        {
+          "id": "f42",
+          "english": "I feel helpless.",
+          "pronunciation": "Ai fil helples.",
+          "meaning": "Aku merasa tidak berdaya."
+        },
+        {
+          "id": "f43",
+          "english": "I'm fascinated by this.",
+          "pronunciation": "Aim fesineitid bai dis.",
+          "meaning": "Aku terpesona dengan ini."
+        },
+        {
+          "id": "f44",
+          "english": "I'm so touched.",
+          "pronunciation": "Aim sou tact.",
+          "meaning": "Aku sangat tersentuh."
+        },
+        {
+          "id": "f45",
+          "english": "I feel left out.",
+          "pronunciation": "Ai fil left aut.",
+          "meaning": "Aku merasa dikucilkan."
+        },
+        {
+          "id": "f46",
+          "english": "I'm losing my patience.",
+          "pronunciation": "Aim luzing mai peisyens.",
+          "meaning": "Aku kehilangan kesabaranku."
+        },
+        {
+          "id": "f47",
+          "english": "I feel confident.",
+          "pronunciation": "Ai fil konfident.",
+          "meaning": "Aku merasa percaya diri."
+        },
+        {
+          "id": "f48",
+          "english": "I'm in a good mood.",
+          "pronunciation": "Aim in e gud mud.",
+          "meaning": "Aku sedang dalam suasana hati baik."
+        },
+        {
+          "id": "f49",
+          "english": "That was unexpected.",
+          "pronunciation": "Det wos anekspektid.",
+          "meaning": "Itu tidak terduga."
+        },
+        {
+          "id": "f50",
+          "english": "I couldn't be happier!",
+          "pronunciation": "Ai kudent bi hepier!",
+          "meaning": "Aku tidak bisa lebih bahagia lagi!"
+        }
       ]
     },
     {
@@ -230,26 +2470,306 @@
       "icon": "📚",
       "color": "#6366F1",
       "words": [
-        { "id": "s1", "english": "I didn't do my homework.", "pronunciation": "Ai didnt du mai houmwerk.", "meaning": "Aku tidak mengerjakan PR." },
-        { "id": "s2", "english": "Can you repeat that?", "pronunciation": "Ken yu ripit det?", "meaning": "Bisa diulang?" },
-        { "id": "s3", "english": "I don't understand.", "pronunciation": "Ai dount understend.", "meaning": "Aku tidak mengerti." },
-        { "id": "s4", "english": "What does this mean?", "pronunciation": "Wot daz dis min?", "meaning": "Apa arti ini?" },
-        { "id": "s5", "english": "I passed the exam!", "pronunciation": "Ai past di igzem!", "meaning": "Aku lulus ujian!" },
-        { "id": "s6", "english": "I failed the test.", "pronunciation": "Ai feild de test.", "meaning": "Aku gagal ujian." },
-        { "id": "s7", "english": "May I borrow your pen?", "pronunciation": "Mei ai borou yor pen?", "meaning": "Boleh pinjam penmu?" },
-        { "id": "s8", "english": "The class is boring.", "pronunciation": "De kles is boring.", "meaning": "Kelasnya membosankan." },
-        { "id": "s9", "english": "I need to study more.", "pronunciation": "Ai nid tu stadi mor.", "meaning": "Aku perlu belajar lebih." },
-        { "id": "s10", "english": "The assignment is due today.", "pronunciation": "Di esainment is dyu tudei.", "meaning": "Tugas dikumpul hari ini." },
-        { "id": "s11", "english": "Can I ask a question?", "pronunciation": "Ken ai esk e kwescyen?", "meaning": "Boleh aku bertanya?" },
-        { "id": "s12", "english": "Please be quiet.", "pronunciation": "Pliz bi kwaiyet.", "meaning": "Tolong tenang." },
-        { "id": "s13", "english": "Open your textbook.", "pronunciation": "Oupen yor tekstbuk.", "meaning": "Buka buku teksmu." },
-        { "id": "s14", "english": "I need to take notes.", "pronunciation": "Ai nid tu teik nouts.", "meaning": "Aku perlu mencatat." },
-        { "id": "s15", "english": "Group project.", "pronunciation": "Grup projekt.", "meaning": "Tugas kelompok." },
-        { "id": "s16", "english": "I got an A!", "pronunciation": "Ai got en ei!", "meaning": "Aku dapat nilai A!" },
-        { "id": "s17", "english": "Extra credit.", "pronunciation": "Ekstra kredit.", "meaning": "Nilai tambahan." },
-        { "id": "s18", "english": "The library is closed.", "pronunciation": "De laibri is klouzd.", "meaning": "Perpustakaan tutup." },
-        { "id": "s19", "english": "I have a presentation.", "pronunciation": "Ai hev e prezenteisyen.", "meaning": "Aku ada presentasi." },
-        { "id": "s20", "english": "Study hard!", "pronunciation": "Stadi hard!", "meaning": "Belajar yang giat!" }
+        {
+          "id": "s1",
+          "english": "I didn't do my homework.",
+          "pronunciation": "Ai didnt du mai houmwerk.",
+          "meaning": "Aku tidak mengerjakan PR."
+        },
+        {
+          "id": "s2",
+          "english": "Can you repeat that?",
+          "pronunciation": "Ken yu ripit det?",
+          "meaning": "Bisa diulang?"
+        },
+        {
+          "id": "s3",
+          "english": "I don't understand.",
+          "pronunciation": "Ai dount understend.",
+          "meaning": "Aku tidak mengerti."
+        },
+        {
+          "id": "s4",
+          "english": "What does this mean?",
+          "pronunciation": "Wot daz dis min?",
+          "meaning": "Apa arti ini?"
+        },
+        {
+          "id": "s5",
+          "english": "I passed the exam!",
+          "pronunciation": "Ai past di igzem!",
+          "meaning": "Aku lulus ujian!"
+        },
+        {
+          "id": "s6",
+          "english": "I failed the test.",
+          "pronunciation": "Ai feild de test.",
+          "meaning": "Aku gagal ujian."
+        },
+        {
+          "id": "s7",
+          "english": "May I borrow your pen?",
+          "pronunciation": "Mei ai borou yor pen?",
+          "meaning": "Boleh pinjam penmu?"
+        },
+        {
+          "id": "s8",
+          "english": "The class is boring.",
+          "pronunciation": "De kles is boring.",
+          "meaning": "Kelasnya membosankan."
+        },
+        {
+          "id": "s9",
+          "english": "I need to study more.",
+          "pronunciation": "Ai nid tu stadi mor.",
+          "meaning": "Aku perlu belajar lebih."
+        },
+        {
+          "id": "s10",
+          "english": "The assignment is due today.",
+          "pronunciation": "Di esainment is dyu tudei.",
+          "meaning": "Tugas dikumpul hari ini."
+        },
+        {
+          "id": "s11",
+          "english": "Can I ask a question?",
+          "pronunciation": "Ken ai esk e kwescyen?",
+          "meaning": "Boleh aku bertanya?"
+        },
+        {
+          "id": "s12",
+          "english": "Please be quiet.",
+          "pronunciation": "Pliz bi kwaiyet.",
+          "meaning": "Tolong tenang."
+        },
+        {
+          "id": "s13",
+          "english": "Open your textbook.",
+          "pronunciation": "Oupen yor tekstbuk.",
+          "meaning": "Buka buku teksmu."
+        },
+        {
+          "id": "s14",
+          "english": "I need to take notes.",
+          "pronunciation": "Ai nid tu teik nouts.",
+          "meaning": "Aku perlu mencatat."
+        },
+        {
+          "id": "s15",
+          "english": "Group project.",
+          "pronunciation": "Grup projekt.",
+          "meaning": "Tugas kelompok."
+        },
+        {
+          "id": "s16",
+          "english": "I got an A!",
+          "pronunciation": "Ai got en ei!",
+          "meaning": "Aku dapat nilai A!"
+        },
+        {
+          "id": "s17",
+          "english": "Extra credit.",
+          "pronunciation": "Ekstra kredit.",
+          "meaning": "Nilai tambahan."
+        },
+        {
+          "id": "s18",
+          "english": "The library is closed.",
+          "pronunciation": "De laibri is klouzd.",
+          "meaning": "Perpustakaan tutup."
+        },
+        {
+          "id": "s19",
+          "english": "I have a presentation.",
+          "pronunciation": "Ai hev e prezenteisyen.",
+          "meaning": "Aku ada presentasi."
+        },
+        {
+          "id": "s20",
+          "english": "Study hard!",
+          "pronunciation": "Stadi hard!",
+          "meaning": "Belajar yang giat!"
+        },
+        {
+          "id": "s21",
+          "english": "When is the final exam?",
+          "pronunciation": "Wen is de fainel igzem?",
+          "meaning": "Kapan ujian akhir?"
+        },
+        {
+          "id": "s22",
+          "english": "I need to write an essay.",
+          "pronunciation": "Ai nid tu rait en esei.",
+          "meaning": "Aku perlu menulis esai."
+        },
+        {
+          "id": "s23",
+          "english": "The teacher is absent today.",
+          "pronunciation": "De ticyer is ebsent tudei.",
+          "meaning": "Gurunya tidak hadir hari ini."
+        },
+        {
+          "id": "s24",
+          "english": "I'm studying for midterms.",
+          "pronunciation": "Aim stadying for midterms.",
+          "meaning": "Aku belajar untuk ujian tengah semester."
+        },
+        {
+          "id": "s25",
+          "english": "Can I use a calculator?",
+          "pronunciation": "Ken ai yuz e kelkyuleiter?",
+          "meaning": "Boleh aku pakai kalkulator?"
+        },
+        {
+          "id": "s26",
+          "english": "I got a scholarship!",
+          "pronunciation": "Ai got e skolarsyip!",
+          "meaning": "Aku dapat beasiswa!"
+        },
+        {
+          "id": "s27",
+          "english": "The deadline is tomorrow.",
+          "pronunciation": "De dedlain is tumorou.",
+          "meaning": "Batas waktunya besok."
+        },
+        {
+          "id": "s28",
+          "english": "We have a substitute teacher.",
+          "pronunciation": "Wi hev e sabstitut ticyer.",
+          "meaning": "Kita ada guru pengganti."
+        },
+        {
+          "id": "s29",
+          "english": "I'm majoring in English.",
+          "pronunciation": "Aim meijoring in Inglish.",
+          "meaning": "Aku mengambil jurusan bahasa Inggris."
+        },
+        {
+          "id": "s30",
+          "english": "The school bus is late.",
+          "pronunciation": "De skul bas is leit.",
+          "meaning": "Bus sekolahnya terlambat."
+        },
+        {
+          "id": "s31",
+          "english": "I need to do research.",
+          "pronunciation": "Ai nid tu du risercj.",
+          "meaning": "Aku perlu melakukan penelitian."
+        },
+        {
+          "id": "s32",
+          "english": "The lecture was interesting.",
+          "pronunciation": "De lekcyer wos intresting.",
+          "meaning": "Kuliahnya menarik."
+        },
+        {
+          "id": "s33",
+          "english": "Raise your hand.",
+          "pronunciation": "Reiz yor hend.",
+          "meaning": "Angkat tanganmu."
+        },
+        {
+          "id": "s34",
+          "english": "I need a tutor.",
+          "pronunciation": "Ai nid e tyutor.",
+          "meaning": "Aku butuh tutor."
+        },
+        {
+          "id": "s35",
+          "english": "We have a field trip next week.",
+          "pronunciation": "Wi hev e fild trip nekst wik.",
+          "meaning": "Kita ada karyawisata minggu depan."
+        },
+        {
+          "id": "s36",
+          "english": "Copy the notes from the board.",
+          "pronunciation": "Kopi de nouts from de bord.",
+          "meaning": "Salin catatan dari papan tulis."
+        },
+        {
+          "id": "s37",
+          "english": "I'm graduating this year!",
+          "pronunciation": "Aim grejueiting dis yir!",
+          "meaning": "Aku lulus tahun ini!"
+        },
+        {
+          "id": "s38",
+          "english": "The homework is too difficult.",
+          "pronunciation": "De houmwerk is tu difikalt.",
+          "meaning": "PR-nya terlalu sulit."
+        },
+        {
+          "id": "s39",
+          "english": "I left my book at home.",
+          "pronunciation": "Ai left mai buk et houm.",
+          "meaning": "Aku meninggalkan bukuku di rumah."
+        },
+        {
+          "id": "s40",
+          "english": "Let's study together.",
+          "pronunciation": "Lets stadi tugeder.",
+          "meaning": "Ayo belajar bersama."
+        },
+        {
+          "id": "s41",
+          "english": "The bell just rang.",
+          "pronunciation": "De bel jast reng.",
+          "meaning": "Belnya baru saja berbunyi."
+        },
+        {
+          "id": "s42",
+          "english": "I was absent yesterday.",
+          "pronunciation": "Ai wos ebsent yestidei.",
+          "meaning": "Aku tidak masuk kemarin."
+        },
+        {
+          "id": "s43",
+          "english": "Turn in your assignment.",
+          "pronunciation": "Tern in yor esainment.",
+          "meaning": "Kumpulkan tugasmu."
+        },
+        {
+          "id": "s44",
+          "english": "I'm preparing for the debate.",
+          "pronunciation": "Aim pripering for de dibeit.",
+          "meaning": "Aku sedang mempersiapkan debat."
+        },
+        {
+          "id": "s45",
+          "english": "What time does class start?",
+          "pronunciation": "Wot taim daz kles start?",
+          "meaning": "Jam berapa kelasnya dimulai?"
+        },
+        {
+          "id": "s46",
+          "english": "I joined the science club.",
+          "pronunciation": "Ai joind de saiens klab.",
+          "meaning": "Aku bergabung di klub sains."
+        },
+        {
+          "id": "s47",
+          "english": "We need to form a group.",
+          "pronunciation": "Wi nid tu form e grup.",
+          "meaning": "Kita perlu membentuk kelompok."
+        },
+        {
+          "id": "s48",
+          "english": "The principal called my parents.",
+          "pronunciation": "De prinsipal kold mai perents.",
+          "meaning": "Kepala sekolah menelepon orang tuaku."
+        },
+        {
+          "id": "s49",
+          "english": "I'm taking an online course.",
+          "pronunciation": "Aim teiking en onlain kors.",
+          "meaning": "Aku mengambil kursus online."
+        },
+        {
+          "id": "s50",
+          "english": "Practice makes perfect.",
+          "pronunciation": "Prektis meiks perfekt.",
+          "meaning": "Latihan menjadikan sempurna."
+        }
       ]
     },
     {
@@ -258,26 +2778,306 @@
       "icon": "🌤️",
       "color": "#0EA5E9",
       "words": [
-        { "id": "c1", "english": "It's raining heavily.", "pronunciation": "Its reining hevili.", "meaning": "Hujannya deras." },
-        { "id": "c2", "english": "It's very hot today.", "pronunciation": "Its veri hot tudei.", "meaning": "Hari ini sangat panas." },
-        { "id": "c3", "english": "Bring an umbrella.", "pronunciation": "Bring en ambrele.", "meaning": "Bawa payung." },
-        { "id": "c4", "english": "The weather is nice.", "pronunciation": "De weder is nais.", "meaning": "Cuacanya bagus." },
-        { "id": "c5", "english": "It's cloudy outside.", "pronunciation": "Its klaudi autsaid.", "meaning": "Di luar mendung." },
-        { "id": "c6", "english": "There's a flood.", "pronunciation": "Ders e flad.", "meaning": "Ada banjir." },
-        { "id": "c7", "english": "It's freezing cold.", "pronunciation": "Its frizing kould.", "meaning": "Dinginnya membeku." },
-        { "id": "c8", "english": "The sun is shining.", "pronunciation": "De san is shaining.", "meaning": "Matahari bersinar." },
-        { "id": "c9", "english": "Wind is strong today.", "pronunciation": "Wind is strong tudei.", "meaning": "Anginnya kencang hari ini." },
-        { "id": "c10", "english": "I love rainy days.", "pronunciation": "Ai lav reini deiz.", "meaning": "Aku suka hari hujan." },
-        { "id": "c11", "english": "Watch out for the storm.", "pronunciation": "Woc aut for de storm.", "meaning": "Waspada badai." },
-        { "id": "c12", "english": "It's foggy this morning.", "pronunciation": "Its fogi dis morning.", "meaning": "Pagi ini berkabut." },
-        { "id": "c13", "english": "Beautiful sunset.", "pronunciation": "Byutiful sanset.", "meaning": "Matahari terbenam yang indah." },
-        { "id": "c14", "english": "It might snow.", "pronunciation": "It mait snou.", "meaning": "Mungkin akan bersalju." },
-        { "id": "c15", "english": "Humid weather.", "pronunciation": "Hyumid weder.", "meaning": "Cuaca lembab." },
-        { "id": "c16", "english": "The river is rising.", "pronunciation": "De river is raizing.", "meaning": "Sungainya meluap." },
-        { "id": "c17", "english": "Wear sunscreen.", "pronunciation": "Wer sanskrin.", "meaning": "Pakai tabir surya." },
-        { "id": "c18", "english": "Rainbow after the rain.", "pronunciation": "Reinbou after de rein.", "meaning": "Pelangi setelah hujan." },
-        { "id": "c19", "english": "Stay indoors today.", "pronunciation": "Stei indorz tudei.", "meaning": "Tetap di dalam hari ini." },
-        { "id": "c20", "english": "Cool breeze.", "pronunciation": "Kul briz.", "meaning": "Angin sepoi-sepoi." }
+        {
+          "id": "c1",
+          "english": "It's raining heavily.",
+          "pronunciation": "Its reining hevili.",
+          "meaning": "Hujannya deras."
+        },
+        {
+          "id": "c2",
+          "english": "It's very hot today.",
+          "pronunciation": "Its veri hot tudei.",
+          "meaning": "Hari ini sangat panas."
+        },
+        {
+          "id": "c3",
+          "english": "Bring an umbrella.",
+          "pronunciation": "Bring en ambrele.",
+          "meaning": "Bawa payung."
+        },
+        {
+          "id": "c4",
+          "english": "The weather is nice.",
+          "pronunciation": "De weder is nais.",
+          "meaning": "Cuacanya bagus."
+        },
+        {
+          "id": "c5",
+          "english": "It's cloudy outside.",
+          "pronunciation": "Its klaudi autsaid.",
+          "meaning": "Di luar mendung."
+        },
+        {
+          "id": "c6",
+          "english": "There's a flood.",
+          "pronunciation": "Ders e flad.",
+          "meaning": "Ada banjir."
+        },
+        {
+          "id": "c7",
+          "english": "It's freezing cold.",
+          "pronunciation": "Its frizing kould.",
+          "meaning": "Dinginnya membeku."
+        },
+        {
+          "id": "c8",
+          "english": "The sun is shining.",
+          "pronunciation": "De san is shaining.",
+          "meaning": "Matahari bersinar."
+        },
+        {
+          "id": "c9",
+          "english": "Wind is strong today.",
+          "pronunciation": "Wind is strong tudei.",
+          "meaning": "Anginnya kencang hari ini."
+        },
+        {
+          "id": "c10",
+          "english": "I love rainy days.",
+          "pronunciation": "Ai lav reini deiz.",
+          "meaning": "Aku suka hari hujan."
+        },
+        {
+          "id": "c11",
+          "english": "Watch out for the storm.",
+          "pronunciation": "Woc aut for de storm.",
+          "meaning": "Waspada badai."
+        },
+        {
+          "id": "c12",
+          "english": "It's foggy this morning.",
+          "pronunciation": "Its fogi dis morning.",
+          "meaning": "Pagi ini berkabut."
+        },
+        {
+          "id": "c13",
+          "english": "Beautiful sunset.",
+          "pronunciation": "Byutiful sanset.",
+          "meaning": "Matahari terbenam yang indah."
+        },
+        {
+          "id": "c14",
+          "english": "It might snow.",
+          "pronunciation": "It mait snou.",
+          "meaning": "Mungkin akan bersalju."
+        },
+        {
+          "id": "c15",
+          "english": "Humid weather.",
+          "pronunciation": "Hyumid weder.",
+          "meaning": "Cuaca lembab."
+        },
+        {
+          "id": "c16",
+          "english": "The river is rising.",
+          "pronunciation": "De river is raizing.",
+          "meaning": "Sungainya meluap."
+        },
+        {
+          "id": "c17",
+          "english": "Wear sunscreen.",
+          "pronunciation": "Wer sanskrin.",
+          "meaning": "Pakai tabir surya."
+        },
+        {
+          "id": "c18",
+          "english": "Rainbow after the rain.",
+          "pronunciation": "Reinbou after de rein.",
+          "meaning": "Pelangi setelah hujan."
+        },
+        {
+          "id": "c19",
+          "english": "Stay indoors today.",
+          "pronunciation": "Stei indorz tudei.",
+          "meaning": "Tetap di dalam hari ini."
+        },
+        {
+          "id": "c20",
+          "english": "Cool breeze.",
+          "pronunciation": "Kul briz.",
+          "meaning": "Angin sepoi-sepoi."
+        },
+        {
+          "id": "c21",
+          "english": "The sky is clear today.",
+          "pronunciation": "De skai is klir tudei.",
+          "meaning": "Langit cerah hari ini."
+        },
+        {
+          "id": "c22",
+          "english": "I hear thunder.",
+          "pronunciation": "Ai hir tander.",
+          "meaning": "Aku dengar guntur."
+        },
+        {
+          "id": "c23",
+          "english": "There's a heatwave.",
+          "pronunciation": "Ders e hitweiv.",
+          "meaning": "Ada gelombang panas."
+        },
+        {
+          "id": "c24",
+          "english": "It's drizzling outside.",
+          "pronunciation": "Its drizling autsaid.",
+          "meaning": "Di luar gerimis."
+        },
+        {
+          "id": "c25",
+          "english": "The roads are slippery.",
+          "pronunciation": "De roudz ar sliperi.",
+          "meaning": "Jalannya licin."
+        },
+        {
+          "id": "c26",
+          "english": "What's the temperature today?",
+          "pronunciation": "Wots de temperecyer tudei?",
+          "meaning": "Berapa suhu hari ini?"
+        },
+        {
+          "id": "c27",
+          "english": "It's windy and cold.",
+          "pronunciation": "Its windi end kould.",
+          "meaning": "Berangin dan dingin."
+        },
+        {
+          "id": "c28",
+          "english": "The air quality is bad.",
+          "pronunciation": "Di er kwoliti is bed.",
+          "meaning": "Kualitas udaranya buruk."
+        },
+        {
+          "id": "c29",
+          "english": "I love sunny weather.",
+          "pronunciation": "Ai lav sani weder.",
+          "meaning": "Aku suka cuaca cerah."
+        },
+        {
+          "id": "c30",
+          "english": "It stopped raining.",
+          "pronunciation": "It stopt reining.",
+          "meaning": "Hujannya berhenti."
+        },
+        {
+          "id": "c31",
+          "english": "The typhoon is approaching.",
+          "pronunciation": "De taifun is eproucing.",
+          "meaning": "Topannya mendekat."
+        },
+        {
+          "id": "c32",
+          "english": "There was an earthquake.",
+          "pronunciation": "Der wos en ertkweik.",
+          "meaning": "Ada gempa bumi."
+        },
+        {
+          "id": "c33",
+          "english": "The volcano erupted.",
+          "pronunciation": "De volkeinou iraptid.",
+          "meaning": "Gunungnya meletus."
+        },
+        {
+          "id": "c34",
+          "english": "It's a beautiful day.",
+          "pronunciation": "Its e byutiful dei.",
+          "meaning": "Hari yang indah."
+        },
+        {
+          "id": "c35",
+          "english": "The forecast says rain.",
+          "pronunciation": "De forkest sez rein.",
+          "meaning": "Ramalannya bilang hujan."
+        },
+        {
+          "id": "c36",
+          "english": "There's a drought.",
+          "pronunciation": "Ders e draut.",
+          "meaning": "Ada kekeringan."
+        },
+        {
+          "id": "c37",
+          "english": "Lightning is dangerous.",
+          "pronunciation": "Laitning is deinjeres.",
+          "meaning": "Petir itu berbahaya."
+        },
+        {
+          "id": "c38",
+          "english": "The monsoon season started.",
+          "pronunciation": "De monsun sizn startid.",
+          "meaning": "Musim hujan dimulai."
+        },
+        {
+          "id": "c39",
+          "english": "It's snowing outside!",
+          "pronunciation": "Its snouing autsaid!",
+          "meaning": "Di luar bersalju!"
+        },
+        {
+          "id": "c40",
+          "english": "Wear warm clothes.",
+          "pronunciation": "Wer worm klouds.",
+          "meaning": "Pakai baju hangat."
+        },
+        {
+          "id": "c41",
+          "english": "The tide is high.",
+          "pronunciation": "De taid is hai.",
+          "meaning": "Air pasang tinggi."
+        },
+        {
+          "id": "c42",
+          "english": "Sunrise is at six.",
+          "pronunciation": "Sanraiz is et siks.",
+          "meaning": "Matahari terbit jam enam."
+        },
+        {
+          "id": "c43",
+          "english": "The desert is very dry.",
+          "pronunciation": "De dezert is veri drai.",
+          "meaning": "Padang pasir sangat kering."
+        },
+        {
+          "id": "c44",
+          "english": "A tornado was spotted.",
+          "pronunciation": "E torneido wos spotid.",
+          "meaning": "Ada tornado terlihat."
+        },
+        {
+          "id": "c45",
+          "english": "The flowers are blooming.",
+          "pronunciation": "De flauers ar bluming.",
+          "meaning": "Bunga-bunganya mekar."
+        },
+        {
+          "id": "c46",
+          "english": "It's autumn already.",
+          "pronunciation": "Its otam olredi.",
+          "meaning": "Sudah musim gugur."
+        },
+        {
+          "id": "c47",
+          "english": "The leaves are falling.",
+          "pronunciation": "De livs ar foling.",
+          "meaning": "Daun-daunnya berjatuhan."
+        },
+        {
+          "id": "c48",
+          "english": "Spring is my favorite season.",
+          "pronunciation": "Spring is mai fevorit sizn.",
+          "meaning": "Musim semi adalah musim favoritku."
+        },
+        {
+          "id": "c49",
+          "english": "The stars are bright tonight.",
+          "pronunciation": "De stars ar brait tunait.",
+          "meaning": "Bintang-bintangnya terang malam ini."
+        },
+        {
+          "id": "c50",
+          "english": "The moon is full tonight.",
+          "pronunciation": "De mun is ful tunait.",
+          "meaning": "Bulannya purnama malam ini."
+        }
       ]
     }
   ]
