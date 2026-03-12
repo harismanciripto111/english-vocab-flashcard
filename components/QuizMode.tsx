@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 interface Word {
   id: number
@@ -23,11 +23,7 @@ export default function QuizMode({ words, onComplete }: Props) {
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
 
-  useEffect(() => {
-    generateQuiz()
-  }, [words])
-
-  const generateQuiz = () => {
+  const generateQuiz = useCallback(() => {
     if (words.length < 4) return
     const shuffled = [...words].sort(() => Math.random() - 0.5).slice(0, 10)
     const qs = shuffled.map(word => {
@@ -40,18 +36,24 @@ export default function QuizMode({ words, onComplete }: Props) {
     setSelected(null)
     setScore(0)
     setFinished(false)
-  }
+  }, [words])
+
+  useEffect(() => {
+    generateQuiz()
+  }, [generateQuiz])
 
   const handleAnswer = (choice: string) => {
     if (selected) return
     setSelected(choice)
-    if (choice === questions[currentQ].correct) {
-      setScore(s => s + 1)
+    const isCorrect = choice === questions[currentQ].correct
+    const newScore = isCorrect ? score + 1 : score
+    if (isCorrect) {
+      setScore(newScore)
     }
     setTimeout(() => {
       if (currentQ + 1 >= questions.length) {
         setFinished(true)
-        onComplete(score + (choice === questions[currentQ].correct ? 1 : 0))
+        onComplete(newScore)
       } else {
         setCurrentQ(q => q + 1)
         setSelected(null)
@@ -71,7 +73,6 @@ export default function QuizMode({ words, onComplete }: Props) {
     const pct = Math.round((score / questions.length) * 100)
     return (
       <div className="bg-[#1a1a2e] rounded-2xl p-8 text-center border border-yellow-500/20">
-        <div className="text-5xl mb-4">{pct >= 80 ? '🏆' : pct >= 60 ? '👍' : '💪'}</div>
         <h3 className="text-2xl font-bold text-yellow-400 mb-2">Quiz Selesai!</h3>
         <p className="text-4xl font-bold text-white mb-1">{score}/{questions.length}</p>
         <p className="text-gray-400 mb-6">{pct}% benar</p>
